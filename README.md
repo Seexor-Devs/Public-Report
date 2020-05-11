@@ -1,0 +1,2 @@
+# project
+Common project resources
