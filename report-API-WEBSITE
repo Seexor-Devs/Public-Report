@@ -1,0 +1,136 @@
+ 
+ 
+  Works Report : API TO SITE
+
+
+///////////////////////////////////////////////////////////////////////
+
+ symbol:
+ ✔️ = passed, finished
+ 〰️ = standby
+ 🔥 = under work, max priority
+ ➖ = next question or step
+ ➕ = next full step
+ ... = wainting for
+
+ labels:
+  > todo   (cose fatte o da fare) 
+  > fix    (errore riscontrato)
+  > info   (cose da chiedere)
+  > errme  (errori da parte mia)
+  > fix/up (errore o richiesta di miglioramento)
+  > check  (da controllare prima )
+
+
+///////////////////////////////////////////////////////////////////////
+
+ - ✔️ todo:   realizzazione gateway (da api a website)
+ - ✔️ todo:   collaudo endpoint registrazione
+ - ✔️ todo:   collaudo endpoint utenza
+ - ✔️ todo:   collaudo endpoint recuperi
+ - ✔️ todo:   gateway web/local
+ - ✔️ fix:    Token accesso su Authentication manca id
+ - ✔️ info:   gestione Id/role/accessi
+ - ✔️ fix:    Id lost
+ - ✔️ fix:    conversion $birthdate->format('Y-m-d') 
+ - ✔️ info:   lvl utenza
+ - ✔️ fix:    mancati: adduser > ordine albo tipo zona
+ - ✔️ info:   su gateway
+ - ✔️ info:   login: securcode error
+ - ✔️ todo:   Contatto con Elisa
+ - ✔️ info:   Pindex,Psize
+ - ✔️ fix:    Cancellazione fisica dell'utente
+ - ✔️ fix:    Blocco utenti pre convalida mail
+ - ✔️ fix:    logout non funziona
+ - ✔️ todo:   completamento flusso di registrazione e login
+ - ✔️ todo:   attivazione sendGrid
+ - ✔️ info:   ValidateUser
+ - ✔️ info:   Gestione flusso in-out reg/mail/valy/access/valy
+ - ✔️ errme:  richiesta su codice regolare (demouser e non demoutente)
+ - ✔️ fix:    recupero pass, miglioramenti "conferma via mail della richiesta o chiunque può eliminare la pass di chiunque"
+ - ✔️ fix:    mod pass non è in userEdit 
+ - ✔️ fix:    userEdit manca "link", "albonumber"
+ - ✔️ todo:   passaggio Sangrid attivo
+ - ✔️ todo:   collaudo endpoint utenza terminato
+ - ✔️ todo:   collaudo endpoint recuperi terminato
+ - 〰️ fix:    UserChangePasswordPostRecovery restituisce: KO
+ - ✔️ todo:   inizio collaudo endpoint amministrazione utenti
+ - ✔️ info:   da php apiGate a Js apiGate
+ - ✔️ info:   arrivo esempio file js -> coincide con le nostre api ma non funziona
+ - ✔️ info:   Richiesa codice leggibile -> negata
+ - ✔️ info:   errori lato js -> Sc mancate
+ - ✔️ errme:  errori cors/header richieste js ( vedi moduli header wamp)
+ - ✔️ fix:    mancanza paramentor Tags
+ - ✔️ info:   andcondition (vale come: "incrociata o definita")
+ - ✔️ fix/up: serchUser con paramentri vuoti = all
+ - ✔️ fix/up: update livelli utenza
+ - ✔️ fix:    isStore? isFlag? mancanti
+ - ✔️ info:   richiesti params per registrazioni flag
+ - ✔️ info:   invio screen flag/user
+ - ✔️ fix:    SearchUser e GetUser restituiscono vuoto
+ - ✔️ fix/up: aggiunto admin_validated
+ - ✔️ fix:    auto admin_validated per lo staff
+ - ✔️ fix:    non arriva mail password (erano la pagina sbagliata)
+ - ✔️ info:   nuova richiesa codice leggibile -> negata
+ - ✔️ fix:    DeleteUser e problemi generici sul Js...moduli header wamp disattivati, call non partivano.
+ - ✔️ fix:    check su stringa errato. edituser restituisce KO "same field is empty" alla registrazione di flag
+ - ✔️ fix:    edituser manca il paramentro mail
+ - ✔️ info:   categorie owner... cos'è? 
+ - ✔️ fix:    [eseguito diversamente] sotto categorie e spostamento categorie 
+ - 〰️ todo:   ELIMINO CAUSA NON ECOMMERCE? POREBBE SERVIRE SUL FRONT - Check:  categorie speciali
+ - ✔️ fix:    [risolto è 0] ApiGateway::SearchUser -> $searchlevel manca paramentro TUTTI (quindi vuoto);
+ - ✔️ fix/up: invio array per common actions
+ - 🔥 fix:    shop.search.php -> SearchProduct -> da vuoto restituisce empty array.
+ - 🔥 fix:    delete user response for :  {"Response":"KO","ErrorMessage":"Argument 1 passed to Seexor\\World\\User::Remove() must be of the type array, string given, called in /homepages/42/d591178027/htdocs/Production/Seexor/sources/Seexor/World/User.php on line 1226","HttpCode":400,"Payload":[]}
+ - ➖ info:   EditUser -> reset della mail: salvando senza modifica (quindi con $mail='') torna  il campo mail vuoto fino a convalida di quest'ultima (teoricamente dovrebbe esserci il nuovo, ma utente disabilitato).
+ - ➖ fix:    mancano i dati "referente"
+
+ - ➖ fix:
+   tutti i search escono dallo scopo e mancano le condizioni:
+      - ✔️ solo brand
+         - ✔️ che siano flag
+         - ✔️ che siano store
+      - 🔥 solo utenza
+      - 🔥 solo staff
+      - ✔️ level (1,2,3,4,...,11)
+      - ✔️ CONVALIDATI, DA CONVALIDARE, SOSPESI
+
+   in search product: 
+      ... CATEGORIE stringa (nome1,nome2,nome3)
+      ✔️  ID PRODOTTO // esiste getProduct(ID);
+
+ - ✔️ info: prodotti "criteria family line" ?
+      ✔️ "" criteria è un campo di ricerca generico che va a ricercare nel titolo e nella descrizione la tua stringa
+      .. NON HO CAPITO "" family e line sono la famiglia e la linea di prodotto, qualora volessi raggrupparli
+
+
+ - 〰️ fix:    Manca Get/set User profile photo....
+ - 〰️ fix:    EditUser: strano problema con le date....
+
+ - ➖ fix:    Edit/GetProduct: manca Sottotilo
+ - ➖ fix:    Edit/GetProduct: manca "Link produttore" (sarebbe lo store)
+ - ➖ fix:    check: Edit/GetProduct: manca "Collega Distributore" (sarebbe la store)
+ - ➖ fix:    check: Edit/GetProduct: manca Collega brand 
+ - ➖ fix:    check: Edit/GetProduct -> PDF E INFORMATIVI (è AddProductAttachment,  DeleteProductAttachment, dov'è GetProductAttachment?)
+ - ➖ fix:    check: Edit/GetProduct -> DETTAGLI SPECIFICI
+
+ - ➖ info:   aggiungi/rimuovi variante o file?
+ - ➖ info:   AddProductScore cos'è'?
+
+ - ➖ fix:    ApiGateway::GetReviewsFromProduct($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
+ - ➖ fix:    ApiGateway::GetProductCross($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
+
+ - ➖ todo:    product reviews
+ - ➖ todo:    product statistics values
+ - ➖ info:   [forse si] $suggest = prodotti suggeriti in base ad un prodotto
+
+ - ➖ todo:    user whislists
+ - ➖ todo:    user reviews
+
+
+
+
+ - ➕ todo:    ultimare frontend
+ 
+ 
+ 
