@@ -1,5 +1,11 @@
 ## project logs
 
+- [DESIGN ROLES](https://github.com/Seexor-Devs/Public-Report/blob/master/report-design)<br/>
 
-- Step - [WEBSITE FRONT](https://github.com/Seexor-Devs/Public-Report/blob/master/report-frontside)
-- Step - [API TO SITE](https://github.com/Seexor-Devs/Public-Report/blob/master/report-api-website)
+- [WEBSITE FRONT](https://github.com/Seexor-Devs/Public-Report/blob/master/report-frontside)<br/>
+
+- [API TO SITE](https://github.com/Seexor-Devs/Public-Report/blob/master/report-api-website)<br/>
+
+- CONVALIDA (in standby)<br/>
+
+- PUBBLICAZIONI (in standby)<br/>
