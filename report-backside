@@ -30,58 +30,99 @@ labels:
 
  - ➗ todo:   dashboard.php
 
- sezione staff 
+
+ sezione staff
+
  - ✔️ todo:   staff.myprofile.php
+
  - ✔️ todo:   staff.search.php
-               ✔ nome, ✔ cognome, ✔ email, ✔ per qualifica
-               ✔ per pagina, ✔ commons actions (sospendi,abilita,convalida,elimina)
+               con: ✔ nome, ✔ cognome, ✔ email, ✔ per qualifica
+                    ✔ per pagina, ✔ commons actions (sospendi,abilita,convalida,elimina)
+
  - ✔️ todo:   staff.edit.php
-    - ✔️ todo:   form modifiche profilo
-                 % immagine profilo, % resetta immagine profilo
+    - ✔️ form modifiche profilo
+            con: % immagine profilo, % resetta immagine profilo
                  ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita, ✔ aggiorna password
                  ✔ zona di residenza, ✔ qualifica, ✔ mail di accesso, ✔ telefono, ✔ link,
                  ✘ eliminato per richiesta: documento aggiorna documento elimina documento
-    - ✔️ todo:   forms: % sospendi, % elimina, % reset, % contatta
+    - ✔️ forms sidebar
+             con: % sospendi, % elimina, % reset, % contatta
+
  - ⭕ todo:   staff.new.php
   
+
  sezione users 
+
  - ✔️ todo:   users.search.php
-               ✔ nome, ✔ cognome, ✔ email, ✔ per qualifica, ✔ codice fiscale
-               ✔ N° ordine/albo, ✔ per Id, ✔ per split (convalidati,da convalidare,sospesi),
-               ✔ per pagina, ✔ commons actions (sospendi,abilita,convalida,elimina)
+               con: ✔ nome, ✔ cognome, ✔ email, ✔ per qualifica, ✔ codice fiscale
+                    ✔ N° ordine/albo, ✔ per Id, ✔ per split (convalidati,da convalidare,sospesi),
+                    ✔ per pagina, ✔ commons actions (sospendi,abilita,convalida,elimina)
+
  - ✔️ todo:   users.new.php
-               ✔ nome, ✔ cognome, ✔ data di nascita, ✔ codice fiscale, ✔ telefono, ✔link,
-               ✔ email, ✔ pec, ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
-               ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+               con: ✔ nome, ✔ cognome, ✔ data di nascita, ✔ codice fiscale, ✔ telefono, ✔link,
+                    ✔ email, ✔ pec, ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
+                    ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+
  - ✔️ todo:   users.edit.php
-    - ✔️ todo:   form modifiche profilo
-                 % img profilo, % reinvia nuova img, % approva img , % rigetta img
-                 ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita, ✔ aggiorna password
-                 ✔ zona di residenza, ✔ qualifica (solo lvl<3), ✔ mail di accesso, ✔ telefono, ✔ link,
-                 ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
-                 ✘ eliminato per richiesta: documento aggiorna documento elimina documento
-    - ✔️ todo:   forms: % convalida, % sospendi, % elimina, % reset, % contatta
-    - ✔️ todo:   link a reviews utente
+    - ✔️ form modifiche profilo
+                con: % img profilo, % reinvia nuova img, % approva img , % rigetta img
+                     ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita, ✔ aggiorna password
+                     ✔ zona di residenza, ✔ qualifica (solo lvl<3), ✔ mail di accesso, ✔ telefono, ✔ link,
+                     ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
+                     ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+    - ✔️ forms sidebar
+                con: % convalida, % sospendi, % elimina, % reset, % contatta
+    - ✔️ link a reviews utente
 
  - ➗ todo:   users.edit.php (fatta ma da problemi)
  
- sezione brands e store:
- - ✔️ todo:   brands.search.php
-              ✔ nome del brand, ✔ id, ✔ tag, ✔ solo flag, ✔ per split (convalidati, da convalidare, sospesi),
-              ✔ per pagina, ⭕ commons actions (sospendi,abilita,convalida,elimina)
- - ✔️ fix/up: brands.edit.php (pagina aggiornata)
-               note upgrade: tabs solo per flag + tabs solo brand (fabbrica o store) + con brand+store
-    - ✔️ todo:   form modifiche profilo
-                 completo:
-                 % img profilo, % reinvia nuova img, % approva img , % rigetta img
-                 ✔ Questo brand ha uno store? Si/No,
-                 ✔ ragione sociale, ✔ p.iva, ✔ mail di accesso, ✔ telefono, ✔ link, ✔ tags, 
-                    se professionista...
-                    ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita,
-                    ✔ zona di residenza, ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
-                    ✘ eliminato per richiesta: documento aggiorna documento elimina documento
-                    ⭕ aggiorna password
-                    se esiste un referente...
-                    ⭕ nome referente, ⭕ cognome referente, ⭕ email referente, ⭕ telefono referente,
-    - ✔️ todo:   forms: % convalida, % sospendi, % elimina, % reset, % contatta
 
+sezione brands e store:
+
+- ✔️ todo:   brands.search.php
+              con: ✔ nome del brand, ✔ id, ✔ tag, ✔ solo flag, ✔ per split (convalidati, da convalidare, sospesi),
+                   ✔ per pagina, ⭕ commons actions (sospendi,abilita,convalida,elimina)
+
+- ✔️ fix/up: brands.edit.php (pagina aggiornata)
+              note upgrade: tabs solo per flag + tabs solo brand (fabbrica o store) + con brand+store
+    - ✔️ form modifiche profilo
+              completo: % img profilo, % reinvia nuova img, % approva img , % rigetta img
+                        ✔ Questo brand ha uno store? Si/No,
+                        ✔ ragione sociale, ✔ p.iva, ✔ mail di accesso, ✔ telefono, ✔ link, ✔ tags, 
+                        se professionista...
+                        ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita,
+                        ✔ zona di residenza, ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
+                        ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+                        ⭕ aggiorna password
+                        se esiste un referente...
+                        ⭕ nome referente, ⭕ cognome referente, ⭕ email referente, ⭕ telefono referente,
+              solo flag: % img profilo, % reinvia nuova img, % approva img , % rigetta img
+                         ✔ Questo brand ha uno store? Si/No,
+                         ✔ ragione sociale, ✔ link, ✔ tags
+               
+    - ✔️ forms sidebar
+                 con: % convalida, % sospendi, % elimina, % reset, % contatta
+
+- ✔️ fix/up: brands.edit.php (pagina aggiornata)
+              note upgrade: tabs solo per flag + tabs solo brand (fabbrica o store) + con brand+store
+              completo: % img profilo, % reinvia nuova img, % approva img , % rigetta img
+                        ✔ Questo brand ha uno store? Si/No,
+                        ✔ ragione sociale, ✔ p.iva, ✔ mail di accesso, ✔ telefono, ✔ link, ✔ tags, 
+                        se professionista...
+                        ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita,
+                        ✔ zona di residenza, ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
+                        ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+                        ⭕ aggiorna password
+                        se esiste un referente...
+                        ⭕ nome referente, ⭕ cognome referente, ⭕ email referente, ⭕ telefono referente,
+              solo flag: % img profilo, % reinvia nuova img, % approva img , % rigetta img
+                         ✔ Questo brand ha uno store? Si/No,
+                         ✔ ragione sociale, ✔ link, ✔ tags
+                         
+
+sezione shop:
+
+- ✔️ todo:   shop.search.php
+                 con: ✔ nome prodotto, ✔ id, ✔ in cagetoria (selezione multipla);
+                      ✔ per pagina, ✔ commons actions (abilita,elimina)
+              result: ✔ Id, ✔ titolo, ✔ descizione, ✔ visibilità, ✔ prezzo, % stars, % clicks
