@@ -126,3 +126,15 @@ sezione shop:
                  con: ✔ nome prodotto, ✔ id, ✔ in cagetoria (selezione multipla);
                       ✔ per pagina, ✔ commons actions (abilita,elimina)
               result: ✔ Id, ✔ titolo, ✔ descizione, ✔ visibilità, ✔ prezzo, % stars, % clicks
+
+- 🔥 todo:   shop.product.edit.php (Problemi in corso...)
+                 con: 
+                 
+- ➗ todo:   shop.product.comments.php (da rivedere per miglioramenti sul layout...)
+
+- ✔️ todo:   shop.categories.php (stabile su versione classica)
+                 con: % modifica questa categoria, % crea sotto categoria, % crea categoria base
+
+- ✔️ todo:   shop.tags.php (stabile su versione classica)
+
+- 🔥 todo:   shop.tags.taglist.php (NON STABILE HA DIVERSI ERRORI POST RICERCA)
