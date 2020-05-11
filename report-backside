@@ -65,10 +65,23 @@ labels:
 
  - ➗ todo:   users.edit.php (fatta ma da problemi)
  
+ sezione brands e store:
  - ✔️ todo:   brands.search.php
               ✔ nome del brand, ✔ id, ✔ tag, ✔ solo flag, ✔ per split (convalidati, da convalidare, sospesi),
-              ✔ per pagina, ✔ commons actions (sospendi,abilita,convalida,elimina)
-
-
-
+              ✔ per pagina, ⭕ commons actions (sospendi,abilita,convalida,elimina)
+ - ✔️ fix/up: brands.edit.php (pagina aggiornata)
+               note upgrade: tabs solo per flag + tabs solo brand (fabbrica o store) + con brand+store
+    - ✔️ todo:   form modifiche profilo
+                 completo:
+                 % img profilo, % reinvia nuova img, % approva img , % rigetta img
+                 ✔ Questo brand ha uno store? Si/No,
+                 ✔ ragione sociale, ✔ p.iva, ✔ mail di accesso, ✔ telefono, ✔ link, ✔ tags, 
+                    se professionista...
+                    ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita,
+                    ✔ zona di residenza, ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
+                    ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+                    ⭕ aggiorna password
+                    se esiste un referente...
+                    ⭕ nome referente, ⭕ cognome referente, ⭕ email referente, ⭕ telefono referente,
+    - ✔️ todo:   forms: % convalida, % sospendi, % elimina, % reset, % contatta
 
