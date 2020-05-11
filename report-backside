@@ -1,0 +1,70 @@
+ 
+ 
+  Works Report : WEBSITE BACK (ADMIN PANEL)
+
+
+///////////////////////////////////////////////////////////////////////
+
+ symbol:
+ ⭕ = to do
+ ✔️ = passed, finished
+ 〰️ = standby
+ 🔥 = under work, max priority
+ ➖ = next question or step
+ ➕ = next full step
+ ➗ = ok but wainting api
+ ... = wainting for
+
+labels:
+  > todo   (cose fatte o da fare) 
+  > fix    (errore riscontrato)
+  > info   (cose da chiedere)
+  > errme  (errori da parte mia)
+  > fix/up (errore o richiesta di miglioramento)
+  > check  (da controllare prima )
+
+
+///////////////////////////////////////////////////////////////////////
+
+ - ✔️ todo:   index.php con login
+
+ - ➗ todo:   dashboard.php
+
+ sezione staff 
+ - ✔️ todo:   staff.myprofile.php
+ - ✔️ todo:   staff.search.php
+               ✔ nome, ✔ cognome, ✔ email, ✔ per qualifica
+               ✔ per pagina, ✔ commons actions (sospendi,abilita,convalida,elimina)
+ - ✔️ todo:   staff.edit.php
+    - ✔️ todo:   form modifiche profilo
+                 % immagine profilo, % resetta immagine profilo
+                 ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita, ✔ aggiorna password
+                 ✔ zona di residenza, ✔ qualifica, ✔ mail di accesso, ✔ telefono, ✔ link,
+                 ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+    - ✔️ todo:   forms: % sospendi, % elimina, % reset, % contatta
+ - ⭕ todo:   staff.new.php
+  
+ sezione users 
+ - ✔️ todo:   users.search.php
+               ✔ nome, ✔ cognome, ✔ email, ✔ per qualifica, ✔ codice fiscale
+               ✔ N° ordine/albo, ✔ per Id, ✔ per split (convalidati,da convalidare,sospesi),
+               ✔ per pagina, ✔ commons actions (sospendi,abilita,convalida,elimina)
+ - ✔️ todo:   users.new.php
+               ✔ nome, ✔ cognome, ✔ data di nascita, ✔ codice fiscale, ✔ telefono, ✔link,
+               ✔ email, ✔ pec, ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
+               ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+ - ✔️ todo:   users.edit.php
+    - ✔️ todo:   form modifiche profilo
+                 % img profilo, % reinvia nuova img, % approva img , % rigetta img
+                 ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita, ✔ aggiorna password
+                 ✔ zona di residenza, ✔ qualifica (solo lvl<3), ✔ mail di accesso, ✔ telefono, ✔ link,
+                 ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
+                 ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+    - ✔️ todo:   forms: % convalida, % sospendi, % elimina, % reset, % contatta
+    - ✔️ todo:   link a reviews utente
+
+ - ➗ todo:   users.edit.php (fatta ma da problemi)
+ 
+ - ✔️ todo:   brands.search.php
+              ✔ nome del brand, ✔ id, ✔ tag, ✔ solo flag, ✔ per split (convalidati, da convalidare, sospesi),
+              ✔ per pagina, ✔ commons actions (sospendi,abilita,convalida,elimina)
