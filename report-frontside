@@ -1,0 +1,99 @@
+ 
+ 
+  Works Report : WEVSITE FRONT
+
+
+///////////////////////////////////////////////////////////////////////
+
+ symbol:
+ ⭕ = to do
+ ✔️ = passed, finished
+ 〰️ = standby
+ 🔥 = under work, max priority
+ ➖ = next question or step
+ ➕ = next full step
+ ➗ = ok but wainting api
+ ... = wainting for
+
+labels:
+  > todo   (cose fatte o da fare) 
+  > fix    (errore riscontrato)
+  > info   (cose da chiedere)
+  > errme  (errori da parte mia)
+  > fix/up (errore o richiesta di miglioramento)
+  > check  (da controllare prima )
+
+
+///////////////////////////////////////////////////////////////////////
+
+ - ✔️ todo:   realizzazione pagine statiche
+
+     - ✔️ gdpr role + cockies system
+        - ✔️ privacyandroles.php
+        - 〰️ fix: manca "php" al link (privacyandroles.php)
+          - ✔️ privacyandroles.php > Regolemento del sito e dei servizi
+          - ✔️ privacyandroles.php > Shop e acquisti
+          - ✔️ privacyandroles.php > GDPR, Privacy & Cookies
+          - ➖ privacyandroles.php > Domande frequenti
+
+     - ✔️ login.php
+     - ✔️ accountlost.php
+        - 〰️ fix: Undefined offset: 1 in C:\Server-web\host\Seexor\accountlost.php on line 27
+     - ➗ accountreset.php
+     - ✔️ newaccount.php
+        - ✔️ GDPR VALIDATE newaccount.autocheck.php 
+        - ✔️ GDPR VALIDATE newaccount.manualcheck.php 
+        - ✔️ GDPR VALIDATE newaccount.success.php 
+
+     - ✔️ myprofile.php
+        - ➗ whishlist.php
+
+     - ✔️ contact.php
+        - ➗ fix: GetLibs not found, il modulo esiste ma va aggiornato il percorso
+
+     - ✔️ index.php
+        - ➗ todo: call per prodotti    
+        - ➗ todo: splitter (quantità per pagina)    
+        - ➗ todo: lista prodotti suggeriti    
+
+     - ✔️ home.php
+        - ➗ todo: call per prodotti    
+        - ➗ todo: splitter (quantità per pagina)    
+        - ➗ todo: splitter (più economico, più caro, votato, recente)    
+        - ➗ todo: sidebar (articoli per..., prezzo, tipologia, brand)    
+        - ➗ todo: box prodotti suggeriti    
+        - ➗ todo: box categorie suggerite    
+
+     - ✔️ weare.php
+
+     - ✔️ howto.php
+
+     - ✔️ categorylist.php
+        - ✔️ category.php
+           - ➗ todo: call per prodotti per questa categoria   
+           - ➗ todo: splitter (quantità per pagina)    
+           - ➗ todo: splitter (più economico, più caro, votato, recente)    
+           - ➗ todo: sidebar (articoli per..., prezzo, tipologia, brand)    
+           - ➗ todo: box prodotti suggeriti    
+           - ➗ todo: box categorie suggerite  
+
+     - ✔️ product.php
+        - ➗ todo: Gallery   
+        - ➗ todo: Titolo
+        - ➗ todo: Sottotitolo
+        - ➗ todo: Descrizione    
+        - ➗ todo: Linkbox (brand and store)
+        - ➗ todo: prodotti simili
+        - ➗ todo: Informazioni prodotto (Desc,scheda,particolari,file) 
+        - ➗ todo: Valutazioni utenti
+        - ➗ todo: Modulo: La tua recensione
+
+     - ➗ product.php > allvalutations.php
+
+     - ✔️ sessionoff.php
+
+
+ - ➕ todo:    upgrade a kimera 2.7.X
+ 
+ 
+ 
