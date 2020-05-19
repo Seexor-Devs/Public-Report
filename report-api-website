@@ -80,10 +80,10 @@
  - 〰️ todo:   ELIMINO CAUSA NON ECOMMERCE? POREBBE SERVIRE SUL FRONT - Check:  categorie speciali
  - ✔️ fix:    [risolto è 0] ApiGateway::SearchUser -> $searchlevel manca paramentro TUTTI (quindi vuoto);
  - ✔️ fix/up: invio array per common actions
- - 🔥 fix:    shop.search.php -> SearchProduct -> da vuoto restituisce empty array.
- - 🔥 fix:    delete user response for :  {"Response":"KO","ErrorMessage":"Argument 1 passed to Seexor\\World\\User::Remove() must be of the type array, string given, called in /homepages/42/d591178027/htdocs/Production/Seexor/sources/Seexor/World/User.php on line 1226","HttpCode":400,"Payload":[]}
+ - ✔️ fix:    shop.search.php -> SearchProduct -> da vuoto restituisce empty array.
+ - ✔️ fix:    delete user response for :  {"Response":"KO","ErrorMessage":"Argument 1 passed to Seexor\\World\\User::Remove() must be of the type array, string given, called in /homepages/42/d591178027/htdocs/Production/Seexor/sources/Seexor/World/User.php on line 1226","HttpCode":400,"Payload":[]}
  - ➖ info:   EditUser -> reset della mail: salvando senza modifica (quindi con $mail='') torna  il campo mail vuoto fino a convalida di quest'ultima (teoricamente dovrebbe esserci il nuovo, ma utente disabilitato).
- - ➖ fix:    mancano i dati "referente"
+ - 🔥 fix:    mancano i dati "referente"
 
  - ➖ fix:
    tutti i search escono dallo scopo e mancano le condizioni:
