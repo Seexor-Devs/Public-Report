@@ -83,29 +83,28 @@
  - ✔️ fix:    shop.search.php -> SearchProduct -> da vuoto restituisce empty array.
  - ✔️ fix:    delete user response for :  {"Response":"KO","ErrorMessage":"Argument 1 passed to Seexor\\World\\User::Remove() must be of the type array, string given, called in /homepages/42/d591178027/htdocs/Production/Seexor/sources/Seexor/World/User.php on line 1226","HttpCode":400,"Payload":[]}
  - ➖ info:   EditUser -> reset della mail: salvando senza modifica (quindi con $mail='') torna  il campo mail vuoto fino a convalida di quest'ultima (teoricamente dovrebbe esserci il nuovo, ma utente disabilitato).
- - 🔥 fix:    mancano i dati "referente"
+ - ✔️ fix:    implementazione invio mail su successo di creazione account manuale
+ - 🔥 fix:     mancano i dati "referente"
+ - ⭕ fix: manca la parte messaggi al delete,disable,contact su user, brand ecc.
+ - 〰️ fix:    Manca Get/set User profile photo....
+ - 〰️ fix:    EditUser: strano problema con le date....
+ - ➖ fix:    tutti i search escono dallo scopo e mancano le condizioni:
+               - ✔️ solo brand
+                  - ✔️ che siano flag
+                  - ✔️ che siano store
+               - ✔️ solo utenza
+               - ✔️ solo staff
+               - ✔️ level (1,2,3,4,...,11)
+               - ✔️ CONVALIDATI, DA CONVALIDARE, SOSPESI
 
- - ➖ fix:
-   tutti i search escono dallo scopo e mancano le condizioni:
-      - ✔️ solo brand
-         - ✔️ che siano flag
-         - ✔️ che siano store
-      - ✔️ solo utenza
-      - ✔️ solo staff
-      - ✔️ level (1,2,3,4,...,11)
-      - ✔️ CONVALIDATI, DA CONVALIDARE, SOSPESI
-
-   in search product: 
-      ... CATEGORIE stringa (nome1,nome2,nome3)
-      ✔️  ID PRODOTTO // esiste getProduct(ID);
+               in search product: 
+               ... CATEGORIE stringa (nome1,nome2,nome3)
+               ✔️  ID PRODOTTO // esiste getProduct(ID);
 
  - ✔️ info: prodotti "criteria family line" ?
       ✔️ "" criteria è un campo di ricerca generico che va a ricercare nel titolo e nella descrizione la tua stringa
       .. NON HO CAPITO "" family e line sono la famiglia e la linea di prodotto, qualora volessi raggrupparli
 
-
- - 〰️ fix:    Manca Get/set User profile photo....
- - 〰️ fix:    EditUser: strano problema con le date....
 
  - ➖ fix:    Edit/GetProduct: manca Sottotilo
  - ➖ fix:    Edit/GetProduct: manca "Link produttore" (sarebbe lo store)
