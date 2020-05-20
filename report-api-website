@@ -84,7 +84,7 @@
  - ✔️ fix:    delete user response for :  {"Response":"KO","ErrorMessage":"Argument 1 passed to Seexor\\World\\User::Remove() must be of the type array, string given, called in /homepages/42/d591178027/htdocs/Production/Seexor/sources/Seexor/World/User.php on line 1226","HttpCode":400,"Payload":[]}
  - ➖ info:   EditUser -> reset della mail: salvando senza modifica (quindi con $mail='') torna  il campo mail vuoto fino a convalida di quest'ultima (teoricamente dovrebbe esserci il nuovo, ma utente disabilitato).
  - ✔️ fix:    implementazione invio mail su successo di creazione account manuale
- - 🔥 fix:     mancano i dati "referente"
+ - ✔️ fix:    mancano i dati "referente"
  - ⭕ fix: manca la parte messaggi al delete,disable,contact su user, brand ecc.
  - 〰️ fix:    Manca Get/set User profile photo....
  - 〰️ fix:    EditUser: strano problema con le date....
@@ -109,9 +109,12 @@
  - ➖ fix:    Edit/GetProduct: manca Sottotilo
  - ➖ fix:    Edit/GetProduct: manca "Link produttore" (sarebbe lo store)
  - ➖ fix:    check: Edit/GetProduct: manca "Collega Distributore" (sarebbe la store)
- - ➖ fix:    check: Edit/GetProduct: manca Collega brand 
+ - ➖ fix:    check: Edit/GetProduct: manca Collega brand
+                ✔️-> (verrà fornito da front con campo text)
  - ➖ fix:    check: Edit/GetProduct -> PDF E INFORMATIVI (è AddProductAttachment,  DeleteProductAttachment, dov'è GetProductAttachment?)
+                🔥-> (verrà fornito da front con campo text base64)
  - ➖ fix:    check: Edit/GetProduct -> DETTAGLI SPECIFICI
+                🔥-> (verrà fornito da front con campo arraytext "[Val,Desc],[Val,Desc]" )
 
  - ➖ info:   aggiungi/rimuovi variante o file?
  - ➖ info:   AddProductScore cos'è'?
