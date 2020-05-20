@@ -105,15 +105,17 @@
       ✔️ "" criteria è un campo di ricerca generico che va a ricercare nel titolo e nella descrizione la tua stringa
       .. NON HO CAPITO "" family e line sono la famiglia e la linea di prodotto, qualora volessi raggrupparli
 
-
- - ➖ fix:    Edit/GetProduct: manca Sottotilo
+ - ➖ info:   NewProduct: $supplier??
  - ➖ fix:    Edit/GetProduct: manca "Link produttore" (sarebbe lo store)
  - ➖ fix:    check: Edit/GetProduct: manca "Collega Distributore" (sarebbe la store)
  - ➖ fix:    check: Edit/GetProduct: manca Collega brand
                 ✔️-> (verrà fornito da front con campo text)
  - ➖ fix:    check: Edit/GetProduct -> PDF E INFORMATIVI (è AddProductAttachment,  DeleteProductAttachment, dov'è GetProductAttachment?)
                 🔥-> (verrà fornito da front con campo text base64)
+ - ➖ fix:    Edit/GetProduct: manca Sottotilo
+                🔥-> (verrà fornito da front con campo text) (suggerisco il riuso di $size)
  - ➖ fix:    check: Edit/GetProduct -> DETTAGLI SPECIFICI
+                sostituirei $solor con details
                 🔥-> (verrà fornito da front con campo arraytext "[Val,Desc],[Val,Desc]" )
 
  - ➖ info:   aggiungi/rimuovi variante o file?
