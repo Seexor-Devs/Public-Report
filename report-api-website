@@ -85,7 +85,8 @@
  - ➖ info:   EditUser -> reset della mail: salvando senza modifica (quindi con $mail='') torna  il campo mail vuoto fino a convalida di quest'ultima (teoricamente dovrebbe esserci il nuovo, ma utente disabilitato).
  - ✔️ fix:    implementazione invio mail su successo di creazione account manuale
  - ✔️ fix:    mancano i dati "referente"
- - ⭕ fix: manca la parte messaggi al delete,disable,contact su user, brand ecc.
+ - ✔️ fix/up: Aggiunto: ApiGateway::SendValidationMail passando come parametro userId (che ti viene fornito nel risultato della chiamata addUser)
+ - ⭕ fix:    manca la parte messaggi al delete,disable,contact su user, brand ecc.
  - 〰️ fix:    Manca Get/set User profile photo....
  - 〰️ fix:    EditUser: strano problema con le date....
  - ➖ fix:    tutti i search escono dallo scopo e mancano le condizioni:
