@@ -106,6 +106,7 @@
       ✔️ "" criteria è un campo di ricerca generico che va a ricercare nel titolo e nella descrizione la tua stringa
       .. NON HO CAPITO "" family e line sono la famiglia e la linea di prodotto, qualora volessi raggrupparli
 
+ - 🔥 fix/up: aggiunta al frontend di SendValidationMail
  - 🔥 info:   NewProduct: $supplier??
  - 🔥 fix:    Edit/GetProduct: manca "Link produttore" (sarebbe lo store)
  - 🔥 fix:    check: Edit/GetProduct: manca "Collega Distributore" (sarebbe la store)
