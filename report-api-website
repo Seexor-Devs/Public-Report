@@ -86,6 +86,7 @@
  - ✔️ fix:    implementazione invio mail su successo di creazione account manuale
  - ✔️ fix:    mancano i dati "referente"
  - ✔️ fix/up: Aggiunto: ApiGateway::SendValidationMail passando come parametro userId (che ti viene fornito nel risultato della chiamata addUser)
+ - 🔥 fix/up: aggiunta al frontend di SendValidationMail
  - ⭕ fix:    manca la parte messaggi al delete,disable,contact su user, brand ecc.
  - 〰️ fix:    Manca Get/set User profile photo....
  - 〰️ fix:    EditUser: strano problema con le date....
@@ -106,8 +107,7 @@
       ✔️ "" criteria è un campo di ricerca generico che va a ricercare nel titolo e nella descrizione la tua stringa
       .. NON HO CAPITO "" family e line sono la famiglia e la linea di prodotto, qualora volessi raggrupparli
 
- - 🔥 fix/up: aggiunta al frontend di SendValidationMail
- - 🔥 info:   NewProduct: $supplier??
+ - ✔️ info:   NewProduct: $supplier?? ( è diventato "store collegato" )
  - 🔥 fix:    Edit/GetProduct: manca "Link produttore" (sarebbe lo store)
  - 🔥 fix:    check: Edit/GetProduct: manca "Collega Distributore" (sarebbe la store)
  - 🔥 fix:    check: Edit/GetProduct: manca Collega brand
@@ -120,7 +120,8 @@
                 sostituirei $solor con details
                 🔥-> (verrà fornito da front con campo arraytext "[Val,Desc],[Val,Desc]" )
 
- - ➖ info:   aggiungi/rimuovi variante o file?
+ - ➖ info:   aggiungi/rimuovi variante?
+ - ✔️ info:   aggiungi/rimuovi file?
  - ➖ info:   AddProductScore cos'è'?
 
  - ➖ fix:    ApiGateway::GetReviewsFromProduct($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
