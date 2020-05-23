@@ -90,7 +90,7 @@
  - ⭕ fix:    manca la parte messaggi al delete,disable,contact su user, brand ecc.
  - 〰️ fix:    Manca Get/set User profile photo....
  - 〰️ fix:    EditUser: strano problema con le date....
- - ➖ fix:    tutti i search escono dallo scopo e mancano le condizioni:
+ - 〰️ fix:    tutti i search escono dallo scopo e mancano le condizioni:
                - ✔️ solo brand
                   - ✔️ che siano flag
                   - ✔️ che siano store
@@ -122,12 +122,16 @@
  - ✔️ info:   aggiungi/rimuovi file?
  - ➖ info:   AddProductScore cos'è'?
 
+ - ➖ fix:    AddProductCategory -> owner null non passa e non passa 0 per le main category. La cosa conveniente è mettere 0 come base di ogni main category.
+ - ⭕ fix:    Add/EditProductCategory -> manca descrizione, immagine, vibilità
+
+
  - ➖ fix:    ApiGateway::GetReviewsFromProduct($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
  - ➖ fix:    ApiGateway::GetProductCross($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
 
  - ➖ todo:    product reviews
  - ➖ todo:    product statistics values
- - ➖ info:   [forse si] $suggest = prodotti suggeriti in base ad un prodotto
+ - ✔️ info:    $suggest = prodotti suggeriti in base ad un prodotto
 
  - ➖ todo:    user whislists
  - ➖ todo:    user reviews
