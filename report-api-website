@@ -121,10 +121,9 @@
                 -> il sistema sembra non accettare in ext la stringa base64
                 -> dov'è GetProductAttachment?
 
- - 🔥 fix:    check: Edit/GetProduct -> DETTAGLI SPECIFICI
+ - ✔️ fix:    check: Edit/GetProduct -> DETTAGLI SPECIFICI
                 (ok:  eseguito da $solor a $details)
                 -> verrà fornito da front con campo arraytext "[Val,Desc],[Val,Desc]"
-                -> il sistema sembra non accettare in ext la stringa base64
 
 
 
