@@ -145,14 +145,17 @@
  - ✔️ fix:    Problemi di sessione, accesso e server. Risolti.
  - ✔️ fix:    Problemi di login, accesso e server. Risolti.
 
- - 🔸 fix:    EditCategoryAssociated -> "Category": false invece che lista ID di categorie
- - 🔸 fix:    EditProduct -> check su tags inseriti: "Tags": "aaa,,aaa,,aaa,,aaa,,aaa,,aaa,,aaa,,aaa,,aaa,",
+ - ✔️ fix:    EditCategoryAssociated -> "Category": false invece che lista ID di categorie
+ - ✔️ fix:    EditProduct -> check su tags inseriti: "Tags": "aaa,,aaa,,aaa,,aaa,,aaa,,aaa,,aaa,,aaa,,aaa,",
 
  - 🔸 fix:    Errori generici sulle common actions: da dettagliare
 
  - 🔸 fix:    SearchUsers not working -> restituiscono utenti admin, brands e flags
  - 🔸 fix:    SearchBrands not working -> i valori di ricerca non vengono rispettati
  - 🔸 fix:    DeleteProduct not working -> restituisce OK ma non ha cancellato
+
+ - 🔸 fix:    Mail send not working: aggiorna password e tutto ciò che dipende dalla mail resta bloccato
+
 
 
  ...next...
