@@ -134,21 +134,32 @@
          ✔️ todo:   rimuovi gallery
 
  - ✔️ info:   AddProductScore cos'è'? => è la valutazione 
+ - ✔️ info:   $suggest = prodotti suggeriti in base ad un prodotto
 
  - ✔️ fix:    AddProductCategory
                  ✔️ owner null non passa e non passa 0 per le main category.
                  ✔️ conveniente è mettere 0 come base di ogni main category.
 
  - ✔️ fix:    Add/EditProductCategory -> manca descrizione, immagine, vibilità
+
+ - ✔️ fix:    Problemi di sessione, accesso e server. Risolti.
+ - ✔️ fix:    Problemi di login, accesso e server. Risolti.
+
  - 🔸 fix:    EditCategoryAssociated -> "Category": false invece che lista ID di categorie
  - 🔸 fix:    EditProduct -> check su tags inseriti: "Tags": "aaa,,aaa,,aaa,,aaa,,aaa,,aaa,,aaa,,aaa,,aaa,",
+
+ - 🔸 fix:    Errori generici sulle common actions: da dettagliare
+
+ - 🔸 fix:    SearchUsers not working -> restituiscono utenti admin, brands e flags
+ - 🔸 fix:    SearchBrands not working -> i valori di ricerca non vengono rispettati
+ - 🔸 fix:    DeleteProduct not working -> restituisce OK ma non ha cancellato
+
 
  ...next...
  - ➖ fix:     ApiGateway::GetReviewsFromProduct($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
  - ➖ fix:     ApiGateway::GetProductCross($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
  - ➖ todo:    product reviews
  - ➖ todo:    product statistics values
- - ✔️ info:    $suggest = prodotti suggeriti in base ad un prodotto
 
  - ➖ todo:    user whislists
  - ➖ todo:    user reviews
