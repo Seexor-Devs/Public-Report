@@ -74,7 +74,7 @@ labels:
                 con: % convalida, % sospendi, % elimina, % reset, % contatta
     - ✔️ link a reviews utente
 
- - ➗ todo:   users.edit.php (fatta ma da problemi)
+ - ✔️ todo:   users.edit.php
  
 
 sezione brands e store:
@@ -101,7 +101,7 @@ sezione brands e store:
                          ✔ ragione sociale, ✔ link, ✔ tags
                
     - ✔️ forms sidebar
-                 con: % convalida, % sospendi, % elimina, % reset, % contatta
+                 con: 🔥 convalida, 🔥 sospendi, 🔥 elimina, 🔥 reset, 🔥 contatta
 
 - ✔️ fix/up: brands.edit.php (pagina aggiornata)
               note upgrade: tabs solo per flag + tabs solo brand (fabbrica o store) + con brand+store
