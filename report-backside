@@ -48,7 +48,7 @@ labels:
     - ✔️ forms sidebar
              con: % sospendi, % elimina, % reset, % contatta
 
- - ⭕ todo:   staff.new.php
+ - ✔️ todo:   staff.new.php
   
 
  sezione users 
@@ -81,7 +81,7 @@ sezione brands e store:
 
 - ✔️ todo:   brands.search.php
               con: ✔ nome del brand, ✔ id, ✔ tag, ✔ solo flag, ✔ per split (convalidati, da convalidare, sospesi),
-                   ✔ per pagina, ⭕ commons actions (sospendi,abilita,convalida,elimina)
+                   ✔ per pagina, 🔥 commons actions (sospendi,abilita,convalida,elimina)
 
 - ✔️ fix/up: brands.edit.php (pagina aggiornata)
               note upgrade: tabs solo per flag + tabs solo brand (fabbrica o store) + con brand+store
@@ -93,9 +93,9 @@ sezione brands e store:
                         ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita,
                         ✔ zona di residenza, ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
                         ✘ eliminato per richiesta: documento aggiorna documento elimina documento
-                        ⭕ aggiorna password
+                        ✔ aggiorna password
                         se esiste un referente...
-                        ⭕ nome referente, ⭕ cognome referente, ⭕ email referente, ⭕ telefono referente,
+                        ✔ nome referente, ✔ cognome referente, ✔ email referente, ✔ telefono referente,
               solo flag: % img profilo, % reinvia nuova img, % approva img , % rigetta img
                          ✔ Questo brand ha uno store? Si/No,
                          ✔ ragione sociale, ✔ link, ✔ tags
@@ -112,9 +112,9 @@ sezione brands e store:
                         ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita,
                         ✔ zona di residenza, ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
                         ✘ eliminato per richiesta: documento aggiorna documento elimina documento
-                        ⭕ aggiorna password
+                        ✔ aggiorna password
                         se esiste un referente...
-                        ⭕ nome referente, ⭕ cognome referente, ⭕ email referente, ⭕ telefono referente,
+                        ✔ nome referente, ✔ cognome referente, ✔ email referente, ✔ telefono referente,
               solo flag: % img profilo, % reinvia nuova img, % approva img , % rigetta img
                          ✔ Questo brand ha uno store? Si/No,
                          ✔ ragione sociale, ✔ link, ✔ tags
@@ -127,8 +127,8 @@ sezione shop:
                       ✔ per pagina, ✔ commons actions (abilita,elimina)
               result: ✔ Id, ✔ titolo, ✔ descizione, ✔ visibilità, ✔ prezzo, % stars, % clicks
 
-- 🔥 todo:   shop.product.edit.php (Problemi in corso...)
-                 con: 
+- ✔️ todo:   shop.product.edit.php (Problemi in corso...)
+- 🔥 todo:   shop.product.variants.php (Problemi in corso...)
                  
 - ➗ todo:   shop.product.comments.php (da rivedere per miglioramenti sul layout...)
 
