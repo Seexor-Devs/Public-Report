@@ -11,6 +11,7 @@
  🔸 = bug, max priority
  🔥 = under work, max priority
  ➖ = next question or step
+ ✖️ = excluded, not to do
  ➕ = next full step
  ... = wainting for
 
@@ -78,7 +79,7 @@
  - ✔️ fix:    edituser manca il paramentro mail
  - ✔️ info:   categorie owner... cos'è? 
  - ✔️ fix:    [eseguito diversamente] sotto categorie e spostamento categorie 
- - 〰️ todo:   ELIMINO CAUSA NON ECOMMERCE? POREBBE SERVIRE SUL FRONT - Check:  categorie speciali
+ - ✖️ del:    categorie speciali ELIMINATO CAUSA INUTILIZZO 
  - ✔️ fix:    [risolto è 0] ApiGateway::SearchUser -> $searchlevel manca paramentro TUTTI (quindi vuoto);
  - ✔️ fix/up: invio array per common actions
  - ✔️ fix:    shop.search.php -> SearchProduct -> da vuoto restituisce empty array.
@@ -87,10 +88,9 @@
  - ✔️ fix:    implementazione invio mail su successo di creazione account manuale
  - ✔️ fix:    mancano i dati "referente"
  - ✔️ fix/up: aggiunto: ApiGateway::SendValidationMail passando come parametro userId (che ti viene fornito nel risultato della chiamata addUser)
- - 🔥 fix/up: aggiunta al frontend di SendValidationMail
- - ⭕ fix:    manca la parte messaggi al delete,disable,contact su user, brand ecc.
- - 〰️ fix:    Manca Get/set User profile photo....
- - 〰️ fix:    EditUser: strano problema con le date....
+ - ✔️ fix/up: aggiunta al frontend di SendValidationMail
+ - ✖️ del:    Manca Get/set User profile photo.... > sostituita da funzione writeFiles
+ - ✔️ fix:    EditUser: strano problema con le date....
  - ✔️ fix:    tutti i search escono dallo scopo e mancano le condizioni:
                - ✔️ solo brand
                   - ✔️ che siano flag
@@ -99,78 +99,89 @@
                - ✔️ solo staff
                - ✔️ level (1,2,3,4,...,11)
                - ✔️ CONVALIDATI, DA CONVALIDARE, SOSPESI
-
                in search product: 
-               🔸 CATEGORIE stringa (nome1,nome2,nome3)
-               ✔️  ID PRODOTTO // esiste getProduct(ID);
-
+               ✔️ CATEGORIE stringa (nome1,nome2,nome3)
+               <🔸> RECHECK >  ID PRODOTTO // esiste getProduct(ID); << attuale bug: getProduct non sta girando bene
  - ✔️ info: prodotti "criteria family line" ?
-      ✔️ "" criteria è un campo di ricerca generico che va a ricercare nel titolo e nella descrizione la tua stringa
-      〰️ NON HO CAPITO "" family e line sono la famiglia e la linea di prodotto, qualora volessi raggrupparli
-
  - ✔️ info:   NewProduct: $supplier?? ( è diventato "store collegato" )
  - ✔️ fix:    Edit/GetProduct: manca "Link produttore" (sarebbe lo store)
  - ✔️ fix:    check: Edit/GetProduct: manca "Collega Distributore" (sarebbe la store)
  - ✔️ fix:    check: Edit/GetProduct: manca Collega brand
  - ✔️ fix:    Edit/GetProduct: manca Sottotilo
-
-
  - ✔️ fix:    check: Edit/GetProduct -> PDF E INFORMATIVI
                (ok: è AddProductAttachment,  DeleteProductAttachment)
                 -> verrà fornito da front con campo text base64)
                 -> il sistema sembra non accettare in ext la stringa base64
                 -> dov'è GetProductAttachment?
                    -> risolto con diretta call fisica su struttura cartelle
-
  - ✔️ fix:    check: Edit/GetProduct -> DETTAGLI SPECIFICI
                 -> verrà fornito da front con campo arraytext "[Val,Desc],[Val,Desc]"
                    -> ok:  eseguito da $solor a $details)
   - ✔️ fix:    check: Edit/GetProduct -> DETTAGLI SPECIFICI valori sballati
                 -> risolto con diretto salvataggio
- - ➖ info:   aggiungi/rimuovi variante?
+ - ✔️ info:   aggiungi/rimuovi variante?
  - ✔️ todo:   rimuovi prodotto 
       ✔️ info:   aggiungi/rimuovi file?
          ✔️ todo:   rimuovi attachs
          ✔️ todo:   rimuovi gallery
-
  - ✔️ info:   AddProductScore cos'è'? => è la valutazione 
  - ✔️ info:   $suggest = prodotti suggeriti in base ad un prodotto
-
  - ✔️ fix:    AddProductCategory
                  ✔️ owner null non passa e non passa 0 per le main category.
                  ✔️ conveniente è mettere 0 come base di ogni main category.
-
  - ✔️ fix:    Add/EditProductCategory -> manca descrizione, immagine, vibilità
-
  - ✔️ fix:    Problemi di sessione, accesso e server. Risolti.
  - ✔️ fix:    Problemi di login, accesso e server. Risolti.
-
  - ✔️ fix:    EditCategoryAssociated -> "Category": false invece che lista ID di categorie
  - ✔️ fix:    EditProduct -> check su tags inseriti: "Tags": "aaa,,aaa,,aaa,,aaa,,aaa,,aaa,,aaa,,aaa,,aaa,",
+ - ✔️ fix:    Errori generici sulle common actions: da dettagliare
+ - ✔️ fix:    SearchUsers not working -> restituiscono utenti admin, brands e flags
+ - ✔️ fix:    SearchBrands not working -> i valori di ricerca non vengono rispettati
+ - ✔️ fix:    DeleteProduct not working -> restituisce OK ma non ha cancellato
 
- - 🔸 fix:    Errori generici sulle common actions: da dettagliare
+ - <🔸> RECHECK > fix:    Mail send not working: aggiorna password e tutto ciò che dipende dalla mail resta bloccato
 
- - 🔸 fix:    SearchUsers not working -> restituiscono utenti admin, brands e flags
- - 🔸 fix:    SearchBrands not working -> i valori di ricerca non vengono rispettati
- - 🔸 fix:    DeleteProduct not working -> restituisce OK ma non ha cancellato
+ - ✔️ fix:    ApiGateway::GetReviewsFromProduct($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
+ - ✔️ fix:    ApiGateway::GetProductCross($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
+ - 🔥 todo:   product reviews
 
- - 🔸 fix:    Mail send not working: aggiorna password e tutto ciò che dipende dalla mail resta bloccato
+ - ✔️ todo:    user whislists
+ - 🔥 todo:    user reviews
 
+ - ✔️ todo:    ultima parte: rettifica del lato clienti (ricollega nuove chiamate, ottimizzazione lineare)
+ - ✔️ fix:     impaginazione dei prodotti > Elisa ha risolto.
+ - ✔️ todo:    blocco dell'invio + aggiungi alert ad elimina prodotto
+ - ✔️ fix:     Aggingi standard su dettagli o si blocca! > corretto direttamente da loop
+ - ✔️ fix/up:  svincolo il codice prodotto dalla variante. > eseguito e testato.
+ - ✔️ fix/up:  conserva radice dello store ulle varianti > eseguito
+ - ✔️ todo:    Abbellire la ricerca + codice produzione (forse distributore > testato, troppo pesante)
+ - ✔️ todo:    rettifica definitiva ricerca staff > ricerca perfetta
+ - ✔️ todo:    rettifica definitiva ricerca brand
+ - ⭕ fix/up:  [rimandata a maggiore quantità di utenti] rettifica definitiva ricerca user
+ - ✔️ fix:     modifica immagine categoria > sembra risolto.
+ - ✔️ todo:    ultima parte: lato admins: blocco indicizzazione
+ - ✔️ todo:    ultima parte: lato clienti: prime integrazioni indicizzazione
+ - ✔️ todo:    ultima parte: lato clienti: pagina prodotti
+ - ✔️ todo:    ultima parte: miglioramenti ai commenti utenti
+ - ✔️ fix:     newaccount.success.php > metti "LOGIN PER STAFF"
 
-
- ...next...
- - ➖ fix:     ApiGateway::GetReviewsFromProduct($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
- - ➖ fix:     ApiGateway::GetProductCross($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
- - ➖ todo:    product reviews
  - ➖ todo:    product statistics values
 
- - ➖ todo:    user whislists
- - ➖ todo:    user reviews
+ - ➖ fix/up:  in ricerca: Solo la variante più economica! Suggerisco nuova chiamata
+ - ➖ todo:    approva/cancella/modifica commento
+ - ➖ todo:    miglioramento pagina categoria
+ - ➖ todo:    collegamento ultime mail
 
+ - ⭕ todo:    collegamento ultime mail + manca la parte messaggi al delete,disable,contact su user, brand ecc.
+ - 🔸 fix:     Dopo cancella staff ti porta al cerca utenti
 
+-  extra >> allarme per ricerca duplicati indipendenti dal nome <= con i codici prodotto è fattibile adesso?
 
+-  MISTERO >> SU UNA V DI CHROME NON FUNZIONA IL LOGOUT (ma a me si... cosa succede?)
 
- - ➕ todo:    ultimare frontend
+ - 🔥 todo:    ultimare frontoffice
  
+...next...
+null :)
  
  
