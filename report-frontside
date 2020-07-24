@@ -30,7 +30,7 @@ labels:
 
      - ✔️ gdpr role + cockies system
         - ✔️ privacyandroles.php
-        - 〰️ fix: manca "php" al link (privacyandroles.php)
+        - ✔️ fix: manca "php" al link (privacyandroles.php)
           - ✔️ privacyandroles.php > Regolemento del sito e dei servizi
           - ✔️ privacyandroles.php > Shop e acquisti
           - ✔️ privacyandroles.php > GDPR, Privacy & Cookies
@@ -46,23 +46,25 @@ labels:
         - ✔️ GDPR VALIDATE newaccount.success.php 
 
      - ✔️ myprofile.php
-        - ➗ whishlist.php
+        - ✔️ whishlist.php
 
      - ✔️ contact.php
         - ➗ fix: GetLibs not found, il modulo esiste ma va aggiornato il percorso
 
      - ✔️ index.php
-        - ➗ todo: call per prodotti    
-        - ➗ todo: splitter (quantità per pagina)    
-        - ➗ todo: lista prodotti suggeriti    
+        - ✔️ todo: call per prodotti    
+        - ✔️ todo: splitter (quantità per pagina)    
+        - ✔️ todo: lista prodotti suggeriti    
+        - ✔️ todo: paginazione    
 
      - ✔️ home.php
-        - ➗ todo: call per prodotti    
+        - ✔️ todo: call per prodotti    
         - ➗ todo: splitter (quantità per pagina)    
         - ➗ todo: splitter (più economico, più caro, votato, recente)    
         - ➗ todo: sidebar (articoli per..., prezzo, tipologia, brand)    
-        - ➗ todo: box prodotti suggeriti    
-        - ➗ todo: box categorie suggerite    
+        - ✔️ todo: box prodotti suggeriti    
+        - ✔️ todo: box categorie suggerite    
+        - ✔️ todo: paginazione    
 
      - ✔️ weare.php
 
@@ -78,15 +80,15 @@ labels:
            - ➗ todo: box categorie suggerite  
 
      - ✔️ product.php
-        - ➗ todo: Gallery   
-        - ➗ todo: Titolo
-        - ➗ todo: Sottotitolo
-        - ➗ todo: Descrizione    
-        - ➗ todo: Linkbox (brand and store)
-        - ➗ todo: prodotti simili
-        - ➗ todo: Informazioni prodotto (Desc,scheda,particolari,file) 
-        - ➗ todo: Valutazioni utenti
-        - ➗ todo: Modulo: La tua recensione
+        - ✔️ todo: Gallery   
+        - ✔️ todo: Titolo
+        - ✔️ todo: Sottotitolo <-> con Codice prodotto e categoria
+        - ✔️ todo: Descrizione    
+        - ✔️ todo: Linkbox (brand and store)
+        - ✔️ todo: prodotti simili
+        - ✔️ todo: Informazioni prodotto (Desc,scheda,particolari,file) 
+        - ✔️ todo: Valutazioni utenti
+        - ✔️ todo: Modulo: La tua recensione
 
      - ➗ product.php > allvalutations.php
 
