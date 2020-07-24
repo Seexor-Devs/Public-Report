@@ -101,7 +101,7 @@ sezione brands e store:
                          ✔ ragione sociale, ✔ link, ✔ tags
                
     - ✔️ forms sidebar
-                 con: 🔥 convalida, 🔥 sospendi, 🔥 elimina, 🔥 reset, 🔥 contatta
+                 con: ✔ convalida, ✔ sospendi, ✔ elimina, 🔥 reset, 🔥 contatta
 
 - ✔️ fix/up: brands.edit.php (pagina aggiornata)
               note upgrade: tabs solo per flag + tabs solo brand (fabbrica o store) + con brand+store
@@ -127,14 +127,18 @@ sezione shop:
                       ✔ per pagina, ✔ commons actions (abilita,elimina)
               result: ✔ Id, ✔ titolo, ✔ descizione, ✔ visibilità, ✔ prezzo, % stars, % clicks
 
-- ✔️ todo:   shop.product.edit.php (Problemi in corso...)
-- 🔥 todo:   shop.product.variants.php (Problemi in corso...)
-                 
-- ➗ todo:   shop.product.comments.php (da rivedere per miglioramenti sul layout...)
+- ✔️ todo:   shop.product.edit.php
 
-- ✔️ todo:   shop.categories.php (stabile su versione classica)
+- ✔️ todo:   shop.product.variants.php
+                 
+- 🔥 todo:   shop.product.comments.php (da rivedere per miglioramenti sul layout...)
+
+- ✔️ todo:   shop.codes.search.php
+
+- ✔️ todo:   shop.categories.php
                  con: % modifica questa categoria, % crea sotto categoria, % crea categoria base
+
 
 - ✔️ todo:   shop.tags.php (stabile su versione classica)
 
-- 🔥 todo:   shop.tags.taglist.php (NON STABILE HA DIVERSI ERRORI POST RICERCA)
+- ⭕ todo:   shop.tags.taglist.php è fatta ma: RESA STABILE MA MANCA IL SISTEMA PER GESTIRLI
