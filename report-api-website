@@ -171,7 +171,6 @@
  - ➖ todo:    product statistics values
 
  - ➖ fix/up:  in ricerca: Solo la variante più economica! Suggerisco nuova chiamata
- - ➖ todo:    approva/cancella/modifica commento
  - ➖ todo:    miglioramento pagina categoria
  - ➖ todo:    collegamento ultime mail
 
@@ -180,11 +179,16 @@
  - ⭕ todo:    Ricerca frontoffice mancanze filtri.
  - ⭕ todo:    Ricerca frontoffice paginazione avanzata, filtri avanzati.
 
+
 -  extra >> allarme per ricerca duplicati indipendenti dal nome <= con i codici prodotto è fattibile adesso?
 
 -  MISTERO >> SU UNA V DI CHROME NON FUNZIONA IL LOGOUT (ma a me si... cosa succede?)
 
  - 🔥 todo:    ultimare frontoffice
+
+ - ⭕ todo:    Manca gestione tags (elimina questo tag, aggiorna questo tag). E' probabile che per come impostata la cosa non sia facile o possibile farlo
+
+ - ⭕ todo:    Spostamento API e DB -> Termine dei lavori
  
 ...next...
 null :)
