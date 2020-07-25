@@ -146,9 +146,10 @@
  - 🔥 todo:   product reviews
               🔸 DELETE -> An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Query is not a valid select statement
               🔸 PATCH -> An exception of type TeamIcon\\Database\\DbException occoured with these error message: In World database throw an exception occured when I've tryed to execute query: UPDATE product_review SET product = ?, opinion = ? WHERE user = ?, The creation of statement is failed with db error Duplicate entry '202-493' for key 'PRIMARY' and stmt Duplicate entry '202-493' for key 'PRIMARY' and connection error n.d.
+              🔸 MANCA APPROVE
 
  - ✔️ todo:    user whislists
- - 🔥 todo:    user reviews
+ - ✖️ todo:    user reviews > verrà integrata più avanti.
 
  - ✔️ todo:    ultima parte: rettifica del lato clienti (ricollega nuove chiamate, ottimizzazione lineare)
  - ✔️ fix:     impaginazione dei prodotti > Elisa ha risolto.
