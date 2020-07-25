@@ -177,6 +177,8 @@
 
  - ⭕ todo:    collegamento ultime mail + manca la parte messaggi al delete,disable,contact su user, brand ecc.
  - 🔸 fix:     Dopo cancella staff ti porta al cerca utenti
+ - ⭕ todo:    Ricerca frontoffice mancanze filtri.
+ - ⭕ todo:    Ricerca frontoffice paginazione avanzata, filtri avanzati.
 
 -  extra >> allarme per ricerca duplicati indipendenti dal nome <= con i codici prodotto è fattibile adesso?
 
