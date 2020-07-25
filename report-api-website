@@ -101,7 +101,7 @@
                - ✔️ CONVALIDATI, DA CONVALIDARE, SOSPESI
                in search product: 
                ✔️ CATEGORIE stringa (nome1,nome2,nome3)
-               <🔸> RECHECK >  ID PRODOTTO // esiste getProduct(ID); << attuale bug: getProduct non sta girando bene
+               ✔️ ID PRODOTTO risolto tramite uso di getProduct(ID); 
  - ✔️ info: prodotti "criteria family line" ?
  - ✔️ info:   NewProduct: $supplier?? ( è diventato "store collegato" )
  - ✔️ fix:    Edit/GetProduct: manca "Link produttore" (sarebbe lo store)
