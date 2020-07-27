@@ -167,12 +167,10 @@
  - ✔️ todo:    ultima parte: lato clienti: pagina prodotti
  - ✔️ todo:    ultima parte: miglioramenti ai commenti utenti
  - ✔️ fix:     newaccount.success.php > metti "LOGIN PER STAFF"
-
- - ➖ todo:    product statistics values
+ - ✔️ todo:    product statistics values (views/clicks)
 
  - ➖ fix/up:  in ricerca: Solo la variante più economica! Suggerisco nuova chiamata
  - ➖ todo:    miglioramento pagina categoria
- - ➖ todo:    collegamento ultime mail
 
  - ⭕ todo:    collegamento ultime mail + manca la parte messaggi al delete,disable,contact su user, brand ecc.
  - 🔸 fix:     Dopo cancella staff ti porta al cerca utenti
