@@ -144,9 +144,10 @@
  - ✔️ fix:    ApiGateway::GetReviewsFromProduct($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
  - ✔️ fix:    ApiGateway::GetProductCross($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
  - 🔥 todo:   product reviews
-              🔸 DELETE -> An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Query is not a valid select statement
-              🔸 PATCH -> An exception of type TeamIcon\\Database\\DbException occoured with these error message: In World database throw an exception occured when I've tryed to execute query: UPDATE product_review SET product = ?, opinion = ? WHERE user = ?, The creation of statement is failed with db error Duplicate entry '202-493' for key 'PRIMARY' and stmt Duplicate entry '202-493' for key 'PRIMARY' and connection error n.d.
-              🔸 MANCA APPROVE
+              ✔️ DELETE -> An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Query is not a valid select statement
+              ✔️ PATCH SALVA-> An exception of type TeamIcon\\Database\\DbException occoured with these error message: In World database throw an exception occured when I've tryed to execute query: UPDATE product_review SET product = ?, opinion = ? WHERE user = ?, The creation of statement is failed with db error Duplicate entry '202-493' for key 'PRIMARY' and stmt Duplicate entry '202-493' for key 'PRIMARY' and connection error n.d.
+              ✔️ PATCH APPROVA DISABILITA
+                 -> 🔸 Manca come reperire lo status, i commenti partono sempre disabilitati (perchè vanno approvati)
 
  - ✔️ todo:    user whislists
  - ✖️ todo:    user reviews > verrà integrata più avanti.
@@ -169,6 +170,9 @@
  - ✔️ fix:     newaccount.success.php > metti "LOGIN PER STAFF"
  - ✔️ todo:    product statistics values (views/clicks)
  - ✔️ todo:    risolto: product search con spazi
+
+
+
 
  - ➖ fix/up:  in ricerca (front office): Solo la variante più economica! Suggerisco nuova chiamata
  - ➖ todo:    miglioramento pagina categoria
