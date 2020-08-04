@@ -70,7 +70,7 @@ labels:
 
      - ✔️ howto.php
 
-     - ✔️ categorylist.php
+     - !!✔️ categorylist.php (DA MIGLIORARE)
         - ✔️ category.php
            - ➗ todo: call per prodotti per questa categoria   
            - ➗ todo: splitter (quantità per pagina)    
