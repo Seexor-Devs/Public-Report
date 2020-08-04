@@ -178,8 +178,6 @@
  - 🔸 fix/up:  Immagine profilo utenti: manca come reperire lo status di approvazione/rigetto
                (l'immagine non approvata non devo visualizzarla in frontoffice)
 
- - 🔸 fix:     MULTIPASS-> C'è un errore che invia più password quando ci si registra come staff.  Vengono inviate 2 password subito e 2 più avanti. Al prossimo membro staff capiremo se vengono inviate le ultime 2 quando si abilita un utente o quando ha cliccato sul link di conferma mail (che per lo staff non serve)
-
  - 🔸 fix:    collegamento ultime mail + manca la parte messaggi al delete,disable,contact su user, brand ecc.
                mio: preparo dei messaggi standard per le common actions e manca da collegare quelli per decisione ponderata con motivazione.
 
@@ -203,6 +201,6 @@
  
 
 
-// FINE LAVORI
+// FINE LAVORI (Spero)
  
  
