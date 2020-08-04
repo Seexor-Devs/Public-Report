@@ -175,9 +175,6 @@
  - ✔️ fix:     DELETE PRODUCTS-> Come in user da il falso positivo sull'eliminazione.
  - ✔️ fix:     MISTERO >> SU UNA V DI CHROME NON FUNZIONA IL LOGOUT (ma a me si... cosa succede?)
 
- - 🔸 fix:     product reviews
-               Manca come reperire lo status active/disable, suggerisco di metterlo direttamente come entità. I commenti partono sempre disabilitati (perchè vanno approvati)
-
  - 🔸 fix/up:  Immagine profilo utenti: manca come reperire lo status di approvazione/rigetto
                (l'immagine non approvata non devo visualizzarla in frontoffice)
 
