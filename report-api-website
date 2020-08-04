@@ -170,36 +170,42 @@
  - ✔️ fix:     newaccount.success.php > metti "LOGIN PER STAFF"
  - ✔️ todo:    product statistics values (views/clicks)
  - ✔️ todo:    risolto: product search con spazi
-
-
-
-
- - ➖ fix/up:  in ricerca (front office): Solo la variante più economica! Suggerisco nuova chiamata
- - ➖ todo:    miglioramento pagina categoria
-
- - ⭕ todo:    collegamento ultime mail + manca la parte messaggi al delete,disable,contact su user, brand ecc.
  - ✔️ fix:     Dopo cancella staff ti porta al cerca utenti
- - ⭕ todo:    Ricerca frontoffice paginazione avanzata, filtri avanzati.
+ - ✔️ fix:     DELETE STAFF-> Come in user da il falso positivo sull'eliminazione.
+ - ✔️ fix:     DELETE PRODUCTS-> Come in user da il falso positivo sull'eliminazione.
+ - ✔️ fix:     MISTERO >> SU UNA V DI CHROME NON FUNZIONA IL LOGOUT (ma a me si... cosa succede?)
 
- - ✔️ DELETE STAFF-> Come in user da il falso positivo sull'eliminazione.
- - ✔️ DELETE PRODUCTS-> Come in user da il falso positivo sull'eliminazione.
- - 🔸 MULTIPASS-> C'è un errore che invia più password quando ci si registra come staff.  Vengono inviate 2 password subito e 2 più avanti. Al prossimo membro staff capiremo se vengono inviate le ultime 2 quando si abilita un utente o quando ha cliccato sul link di conferma mail (che per lo staff non serve)
- - i! RICERCHE-> Nulla, complicate.
+ - 🔸 fix:     product reviews
+               Manca come reperire lo status active/disable, suggerisco di metterlo direttamente come entità. I commenti partono sempre disabilitati (perchè vanno approvati)
 
- - 🔸 image profile status
+ - 🔸 fix/up:  Immagine profilo utenti: manca come reperire lo status di approvazione/rigetto
+               (l'immagine non approvata non devo visualizzarla in frontoffice)
 
- -  extra >> allarme per ricerca duplicati indipendenti dal nome <= con i codici prodotto è fattibile adesso?
+ - 🔸 fix:     MULTIPASS-> C'è un errore che invia più password quando ci si registra come staff.  Vengono inviate 2 password subito e 2 più avanti. Al prossimo membro staff capiremo se vengono inviate le ultime 2 quando si abilita un utente o quando ha cliccato sul link di conferma mail (che per lo staff non serve)
+
+ - 🔸 fix:    collegamento ultime mail + manca la parte messaggi al delete,disable,contact su user, brand ecc.
+               mio: preparo dei messaggi standard per le common actions e manca da collegare quelli per decisione ponderata con motivazione.
+
+ - 🔸 fix:    Ricerca frontoffice paginazione avanzata, filtri avanzati.
+
+ - ➖ todo:    RICERCHE BACKOFFICE -> Nulla, complicate. 
+               mio: continuerò prima a magheggiare bene io prima di scocciarvi.
+
+ - ⭕ fix/up:  RICERCHE FRONTOFFICE
+                -> Secondo me va fatta una chiamata a parte dove inseriremo la questione filtri avanzati (ancora da fare)
+                -> in ricerca (front office): Solo la variante più economica! Suggerisco nuova chiamata
+                -> Se non erro è stato fatto ma chiedo conferma. Stato dei prodotti attiva/disattivo per non mostrarli in chiamata frontoffice
+ 
+ - ⭕ todo:    Manca gestione tags (elimina questo tag, aggiorna questo tag). E' probabile che per come impostata la cosa non sia facile o possibile farlo
 
  - 🔸 CHROME: (frontoffice) File download appare vuoto
- - ✔️ MISTERO >> SU UNA V DI CHROME NON FUNZIONA IL LOGOUT (ma a me si... cosa succede?)
 
  - 🔥 todo:    ultimare frontoffice
 
- - ⭕ todo:    Manca gestione tags (elimina questo tag, aggiorna questo tag). E' probabile che per come impostata la cosa non sia facile o possibile farlo
-
  - ⭕ todo:    Spostamento API e DB -> Termine dei lavori
  
-...next...
-null :)
+
+
+// FINE LAVORI
  
  
