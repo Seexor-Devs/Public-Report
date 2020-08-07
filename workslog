@@ -17,9 +17,9 @@
   > info   (cose da chiedere)
 
 
-///////////////////////////////////////////////////////////////////////
-  DESIGN
-///////////////////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////////////////////////
+Works Report : DESIGN
 
 
  FIGMAPROJECT: https://www.figma.com/file/edEsvSdtVTl0fmhjQN9CHj/seexor-project?node-id=2%3A67
@@ -43,8 +43,8 @@
 
  
 ///////////////////////////////////////////////////////////////////////
-  WEBSITE FRONT
-///////////////////////////////////////////////////////////////////////
+Works Report : WEBSITE FRONT
+
 
  - ✔️ todo:   realizzazione pagine statiche
 
@@ -119,8 +119,9 @@
 
 
 ///////////////////////////////////////////////////////////////////////
-  WEBSITE BACK (ADMIN PANEL)
-///////////////////////////////////////////////////////////////////////
+Works Report : WEBSITE BACK (ADMIN PANEL)
+
+
 
 
  - ✔️ todo:   index.php con login
@@ -243,8 +244,7 @@ sezione shop:
 
 
 ///////////////////////////////////////////////////////////////////////
-  API TO SITE
-///////////////////////////////////////////////////////////////////////
+Works Report : API TO SITE
 
 
  - ✔️ todo:   realizzazione gateway (da api a website)
@@ -394,17 +394,10 @@ sezione shop:
  - ✔️ fix:     DELETE STAFF-> Come in user da il falso positivo sull'eliminazione.
  - ✔️ fix:     DELETE PRODUCTS-> Come in user da il falso positivo sull'eliminazione.
  - ✔️ fix:     MISTERO >> SU UNA V DI CHROME NON FUNZIONA IL LOGOUT (ma a me si... cosa succede?)
+ - ✔️ todo:    RICERCHE BACKOFFICE -> Risolto. 
 
  - 🔸 fix/up:  Immagine profilo utenti: manca come reperire lo status di approvazione/rigetto
                (l'immagine non approvata non devo visualizzarla in frontoffice)
-
- - 🔸 fix:    collegamento ultime mail + manca la parte messaggi al delete,disable,contact su user, brand ecc.
-               mio: preparo dei messaggi standard per le common actions e manca da collegare quelli per decisione ponderata con motivazione.
-
- - 🔸 fix:    Ricerca frontoffice paginazione avanzata, filtri avanzati.
-
- - ➖ todo:    RICERCHE BACKOFFICE -> Nulla, complicate. 
-               mio: continuerò prima a magheggiare bene io prima di scocciarvi.
 
  - ⭕ fix/up:  RICERCHE FRONTOFFICE
                 -> Secondo me va fatta una chiamata a parte dove inseriremo la questione filtri avanzati (ancora da fare)
@@ -413,13 +406,22 @@ sezione shop:
  
  - ⭕ todo:    Manca gestione tags (elimina questo tag, aggiorna questo tag). E' probabile che per come impostata la cosa non sia facile o possibile farlo
 
- - 🔸 CHROME: (frontoffice) File download appare vuoto
-
  - ⭕ todo:    ultimare Dashboard
- - 🔥 todo:    ultimare frontoffice (aggiornare pagina categorie)
 
  - ⭕ todo:    Spostamento API e DB -> Termine dei lavori
  
+
+///////////////////////////////////////////////////////////////////////
+Works Report : COMMONS
+
+ - 🔸 fix:    collegamento ultime mail + manca la parte messaggi al delete,disable,contact su user, brand ecc.
+               mio: preparo dei messaggi standard per le common actions e manca da collegare quelli per decisione ponderata con motivazione.
+
+ - 🔸 fix:    Ricerca frontoffice paginazione avanzata, filtri avanzati.
+
+ - 🔸 CHROME: (frontoffice) File download appare vuoto
+
+ - 🔥 todo:    ultimare frontoffice (aggiornare pagina categorie)
 
 
 // FINE LAVORI (Spero)
