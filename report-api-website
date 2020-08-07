@@ -143,11 +143,10 @@
 
  - ✔️ fix:    ApiGateway::GetReviewsFromProduct($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
  - ✔️ fix:    ApiGateway::GetProductCross($pId); loop restituisce = "Response": "KO", "ErrorMessage": "An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Update expiration date failed for sc 8kUAqu7H8VnHV8m4jYiikyCzFD9AFftfpfQO3zGG", "HttpCode": 400,
- - 🔥 todo:   product reviews
+ - ✔️ todo:   product reviews
               ✔️ DELETE -> An exception of type TeamIcon\\Exceptions\\CustomException occoured with these error message: Query is not a valid select statement
               ✔️ PATCH SALVA-> An exception of type TeamIcon\\Database\\DbException occoured with these error message: In World database throw an exception occured when I've tryed to execute query: UPDATE product_review SET product = ?, opinion = ? WHERE user = ?, The creation of statement is failed with db error Duplicate entry '202-493' for key 'PRIMARY' and stmt Duplicate entry '202-493' for key 'PRIMARY' and connection error n.d.
               ✔️ PATCH APPROVA DISABILITA
-                 -> 🔸 Manca come reperire lo status, i commenti partono sempre disabilitati (perchè vanno approvati)
 
  - ✔️ todo:    user whislists
  - ✖️ todo:    user reviews > verrà integrata più avanti.
@@ -161,7 +160,7 @@
  - ✔️ todo:    Abbellire la ricerca + codice produzione (forse distributore > testato, troppo pesante)
  - ✔️ todo:    rettifica definitiva ricerca staff > ricerca perfetta
  - ✔️ todo:    rettifica definitiva ricerca brand
- - ⭕ fix/up:  [rimandata a maggiore quantità di utenti] rettifica definitiva ricerca user
+ - ✔️ fix:     rettifica definitiva ricerca user
  - ✔️ fix:     modifica immagine categoria > sembra risolto.
  - ✔️ todo:    ultima parte: lato admins: blocco indicizzazione
  - ✔️ todo:    ultima parte: lato clienti: prime integrazioni indicizzazione
