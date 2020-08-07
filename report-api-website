@@ -1,9 +1,3 @@
- 
- 
-  Works Report : API TO SITE
-
-
-///////////////////////////////////////////////////////////////////////
 
  symbol:
  ✔️ = passed, finished
@@ -18,13 +12,240 @@
  labels:
   > todo   (cose fatte o da fare) 
   > fix    (errore riscontrato)
-  > info   (cose da chiedere)
-  > errme  (errori da parte mia)
   > fix/up (errore o richiesta di miglioramento)
   > check  (da controllare prima )
+  > info   (cose da chiedere)
 
 
 ///////////////////////////////////////////////////////////////////////
+  DESIGN
+///////////////////////////////////////////////////////////////////////
+
+
+ FIGMAPROJECT: https://www.figma.com/file/edEsvSdtVTl0fmhjQN9CHj/seexor-project?node-id=2%3A67
+
+
+ Parte 01:
+
+ - ✔️ todo:  realizzazione logo e dimostrativo sociale
+ - ✔️ todo:  realizzazione test stilistici
+
+ Parte 02:
+
+ - ✔️ todo:  realizzazione design frontoffice
+ - ✔️ todo:  realizzazione design backoffice
+
+ Parte 03:
+
+- ✔️ todo:  architettura del software
+   - 〰️ fix/up: dovrà essere ridisegnata al termine dei lavori
+
+
+ 
+///////////////////////////////////////////////////////////////////////
+  WEBSITE FRONT
+///////////////////////////////////////////////////////////////////////
+
+ - ✔️ todo:   realizzazione pagine statiche
+
+     - ✔️ gdpr role + cockies system
+        - ✔️ privacyandroles.php
+        - ✔️ fix: manca "php" al link (privacyandroles.php)
+          - ✔️ privacyandroles.php > Regolemento del sito e dei servizi
+          - ✔️ privacyandroles.php > Shop e acquisti
+          - ✔️ privacyandroles.php > GDPR, Privacy & Cookies
+          - ➖ privacyandroles.php > Domande frequenti
+
+     - ✔️ login.php
+     - ✔️ accountlost.php
+        - 〰️ fix: Undefined offset: 1 in C:\Server-web\host\Seexor\accountlost.php on line 27
+     - ➗ accountreset.php
+     - ✔️ newaccount.php
+        - ✔️ GDPR VALIDATE newaccount.autocheck.php 
+        - ✔️ GDPR VALIDATE newaccount.manualcheck.php 
+        - ✔️ GDPR VALIDATE newaccount.success.php 
+
+     - ✔️ myprofile.php
+        - ✔️ whishlist.php
+
+     - ✔️ contact.php
+        - ➗ fix: GetLibs not found, il modulo esiste ma va aggiornato il percorso
+
+     - ✔️ index.php
+        - ✔️ todo: call per prodotti    
+        - ✔️ todo: splitter (quantità per pagina)    
+        - ✔️ todo: lista prodotti suggeriti    
+        - ✔️ todo: paginazione    
+
+     - ✔️ home.php
+        - ✔️ todo: call per prodotti    
+        - ➗ todo: splitter (quantità per pagina)    
+        - ➗ todo: splitter (più economico, più caro, votato, recente)    
+        - ➗ todo: sidebar (articoli per..., prezzo, tipologia, brand)    
+        - ✔️ todo: box prodotti suggeriti    
+        - ✔️ todo: box categorie suggerite    
+        - ✔️ todo: paginazione    
+
+     - ✔️ weare.php
+
+     - ✔️ howto.php
+
+     - !!✔️ categorylist.php (DA MIGLIORARE)
+        - ✔️ category.php
+           - ➗ todo: call per prodotti per questa categoria   
+           - ➗ todo: splitter (quantità per pagina)    
+           - ➗ todo: splitter (più economico, più caro, votato, recente)    
+           - ➗ todo: sidebar (articoli per..., prezzo, tipologia, brand)    
+           - ➗ todo: box prodotti suggeriti    
+           - ➗ todo: box categorie suggerite  
+
+     - ✔️ product.php
+        - ✔️ todo: Gallery   
+        - ✔️ todo: Titolo
+        - ✔️ todo: Sottotitolo <-> con Codice prodotto e categoria
+        - ✔️ todo: Descrizione    
+        - ✔️ todo: Linkbox (brand and store)
+        - ✔️ todo: prodotti simili
+        - ✔️ todo: Informazioni prodotto (Desc,scheda,particolari,file) 
+        - ✔️ todo: Valutazioni utenti
+        - ✔️ todo: Modulo: La tua recensione
+
+     - ✖️ product.php > allvalutations.php
+
+     - ✔️ sessionoff.php
+
+- ✔️ rilascio delle demo interattive
+
+
+
+///////////////////////////////////////////////////////////////////////
+  WEBSITE BACK (ADMIN PANEL)
+///////////////////////////////////////////////////////////////////////
+
+
+ - ✔️ todo:   index.php con login
+
+ - ➗ todo:   dashboard.php
+
+
+ sezione staff
+
+ - ✔️ todo:   staff.myprofile.php
+
+ - ✔️ todo:   staff.search.php
+               con: ✔ nome, ✔ cognome, ✔ email, ✔ per qualifica
+                    ✔ per pagina, ✔ commons actions (sospendi,abilita,convalida,elimina)
+
+ - ✔️ todo:   staff.edit.php
+    - ✔️ form modifiche profilo
+            con: % immagine profilo, % resetta immagine profilo
+                 ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita, ✔ aggiorna password
+                 ✔ zona di residenza, ✔ qualifica, ✔ mail di accesso, ✔ telefono, ✔ link,
+                 ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+    - ✔️ forms sidebar
+             con: % sospendi, % elimina, % reset, % contatta
+
+ - ✔️ todo:   staff.new.php
+  
+
+ sezione users 
+
+ - ✔️ todo:   users.search.php
+               con: ✔ nome, ✔ cognome, ✔ email, ✔ per qualifica, ✔ codice fiscale
+                    ✔ N° ordine/albo, ✔ per Id, ✔ per split (convalidati,da convalidare,sospesi),
+                    ✔ per pagina, ✔ commons actions (sospendi,abilita,convalida,elimina)
+
+ - ✔️ todo:   users.new.php
+               con: ✔ nome, ✔ cognome, ✔ data di nascita, ✔ codice fiscale, ✔ telefono, ✔link,
+                    ✔ email, ✔ pec, ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
+                    ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+
+ - ✔️ todo:   users.edit.php
+    - ✔️ form modifiche profilo
+                con: % img profilo, % reinvia nuova img, % approva img , % rigetta img
+                     ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita, ✔ aggiorna password
+                     ✔ zona di residenza, ✔ qualifica (solo lvl<3), ✔ mail di accesso, ✔ telefono, ✔ link,
+                     ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
+                     ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+    - ✔️ forms sidebar
+                con: % convalida, % sospendi, % elimina, % reset, % contatta
+    - ✔️ link a reviews utente
+
+ - ✔️ todo:   users.edit.php
+ 
+
+sezione brands e store:
+
+- ✔️ todo:   brands.search.php
+              con: ✔ nome del brand, ✔ id, ✔ tag, ✔ solo flag, ✔ per split (convalidati, da convalidare, sospesi),
+                   ✔ per pagina, ✔ commons actions (sospendi,abilita,convalida,elimina)
+
+- ✔️ fix/up: brands.edit.php (pagina aggiornata)
+              note upgrade: tabs solo per flag + tabs solo brand (fabbrica o store) + con brand+store
+    - ✔️ form modifiche profilo
+              completo: % img profilo, % reinvia nuova img, % approva img , % rigetta img
+                        ✔ Questo brand ha uno store? Si/No,
+                        ✔ ragione sociale, ✔ p.iva, ✔ mail di accesso, ✔ telefono, ✔ link, ✔ tags, 
+                        se professionista...
+                        ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita,
+                        ✔ zona di residenza, ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
+                        ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+                        ✔ aggiorna password
+                        se esiste un referente...
+                        ✔ nome referente, ✔ cognome referente, ✔ email referente, ✔ telefono referente,
+              solo flag: % img profilo, % reinvia nuova img, % approva img , % rigetta img
+                         ✔ Questo brand ha uno store? Si/No,
+                         ✔ ragione sociale, ✔ link, ✔ tags
+               
+    - ✔️ forms sidebar
+                 con: ✔ convalida, ✔ sospendi, ✔ elimina, ✘ reset, 🔥 contatta
+
+- ✔️ fix/up: brands.edit.php (pagina aggiornata)
+              note upgrade: tabs solo per flag + tabs solo brand (fabbrica o store) + con brand+store
+              completo: % img profilo, % reinvia nuova img, % approva img , % rigetta img
+                        ✔ Questo brand ha uno store? Si/No,
+                        ✔ ragione sociale, ✔ p.iva, ✔ mail di accesso, ✔ telefono, ✔ link, ✔ tags, 
+                        se professionista...
+                        ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita,
+                        ✔ zona di residenza, ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
+                        ✘ eliminato per richiesta: documento aggiorna documento elimina documento
+                        ✔ aggiorna password
+                        se esiste un referente...
+                        ✔ nome referente, ✔ cognome referente, ✔ email referente, ✔ telefono referente,
+              solo flag: % img profilo, % reinvia nuova img, % approva img , % rigetta img
+                         ✔ Questo brand ha uno store? Si/No,
+                         ✔ ragione sociale, ✔ link, ✔ tags
+                         
+
+sezione shop:
+
+- ✔️ todo:   shop.search.php
+                 con: ✔ nome prodotto, ✔ id, ✔ in cagetoria (selezione multipla);
+                      ✔ per pagina, ✔ commons actions (abilita,elimina)
+              result: ✔ Id, ✔ titolo, ✔ descizione, ✔ visibilità, ✔ prezzo, % stars, % clicks
+
+- ✔️ todo:   shop.product.edit.php
+
+- ✔️ todo:   shop.product.variants.php
+                 
+- ✔️ todo:   shop.product.comments.php (da rivedere per miglioramenti sul layout...)
+
+- ✔️ todo:   shop.codes.search.php
+
+- ✔️ todo:   shop.categories.php
+                 con: % modifica questa categoria, % crea sotto categoria, % crea categoria base
+
+
+- ✔️ todo:   shop.tags.php (stabile su versione classica)
+
+- ⭕ todo:   shop.tags.taglist.php è fatta ma: RESA STABILE MA MANCA IL SISTEMA PER GESTIRLI
+
+
+
+///////////////////////////////////////////////////////////////////////
+  API TO SITE
+///////////////////////////////////////////////////////////////////////
+
 
  - ✔️ todo:   realizzazione gateway (da api a website)
  - ✔️ todo:   collaudo endpoint registrazione
@@ -194,7 +415,8 @@
 
  - 🔸 CHROME: (frontoffice) File download appare vuoto
 
- - 🔥 todo:    ultimare frontoffice
+ - ⭕ todo:    ultimare Dashboard
+ - 🔥 todo:    ultimare frontoffice (aggiornare pagina categorie)
 
  - ⭕ todo:    Spostamento API e DB -> Termine dei lavori
  
