@@ -103,7 +103,7 @@ Works Report : WEBSITE FRONT
 
      - ✔️ howto.php
 
-     - !!✔️ categorylist.php (DA MIGLIORARE)
+     - 🔥✔️ categorylist.php
         - ✔️ category.php
            - ➗ todo: call per prodotti per questa categoria   
            - ➗ todo: splitter (quantità per pagina)    
@@ -408,9 +408,9 @@ Works Report : API TO SITE
  - ✔️ fix:     DELETE PRODUCTS-> Come in user da il falso positivo sull'eliminazione.
  - ✔️ fix:     MISTERO >> SU UNA V DI CHROME NON FUNZIONA IL LOGOUT (ma a me si... cosa succede?)
  - ✔️ todo:    RICERCHE BACKOFFICE -> Risolto. 
-
- - 🔸 fix/up:  Immagine profilo utenti: manca come reperire lo status di approvazione/rigetto
-               (l'immagine non approvata non devo visualizzarla in frontoffice)
+ - ✔️ fix/up:  Immagine profilo utenti: manca come reperire lo status di approvazione/rigetto
+ - 🔥 fix:    collegamento ultime mail + manca la parte messaggi al delete,disable,contact su user, brand ecc.
+               mio: preparo dei messaggi standard per le common actions e manca da collegare quelli per decisione ponderata con motivazione.
 
  - ⭕ fix/up:  RICERCHE FRONTOFFICE
                 -> Secondo me va fatta una chiamata a parte dove inseriremo la questione filtri avanzati (ancora da fare)
@@ -428,9 +428,6 @@ Works Report : API TO SITE
 
 Works Report : COMMONS
 
-
- - 🔸 fix:    collegamento ultime mail + manca la parte messaggi al delete,disable,contact su user, brand ecc.
-               mio: preparo dei messaggi standard per le common actions e manca da collegare quelli per decisione ponderata con motivazione.
 
  - 🔸 fix:    Ricerca frontoffice paginazione avanzata, filtri avanzati.
 
