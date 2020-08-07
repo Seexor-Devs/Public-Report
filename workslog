@@ -1,4 +1,15 @@
 
+
+    _____ _____ _____ __ __ _____ _____ 
+   |   __|   __|   __|  |  |     | __  |
+   |__   |   __|   __|-   -|  |  |    -|
+   |_____|_____|_____|__|__|_____|__|__|
+
+                              dev diary
+
+
+
+
  symbol:
  ✔️ = passed, finished
  〰️ = standby
@@ -18,7 +29,8 @@
 
 
 
-////////////////////////////////////////////////////////////////////////////////
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Works Report : DESIGN
 
 
@@ -42,7 +54,8 @@ Works Report : DESIGN
 
 
  
-///////////////////////////////////////////////////////////////////////
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Works Report : WEBSITE FRONT
 
 
@@ -118,10 +131,9 @@ Works Report : WEBSITE FRONT
 
 
 
-///////////////////////////////////////////////////////////////////////
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Works Report : WEBSITE BACK (ADMIN PANEL)
-
-
 
 
  - ✔️ todo:   index.php con login
@@ -243,7 +255,8 @@ sezione shop:
 
 
 
-///////////////////////////////////////////////////////////////////////
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Works Report : API TO SITE
 
 
@@ -411,8 +424,10 @@ Works Report : API TO SITE
  - ⭕ todo:    Spostamento API e DB -> Termine dei lavori
  
 
-///////////////////////////////////////////////////////////////////////
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 Works Report : COMMONS
+
 
  - 🔸 fix:    collegamento ultime mail + manca la parte messaggi al delete,disable,contact su user, brand ecc.
                mio: preparo dei messaggi standard per le common actions e manca da collegare quelli per decisione ponderata con motivazione.
