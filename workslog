@@ -92,9 +92,9 @@ Works Report : WEBSITE FRONT
 
      - ✔️ home.php
         - ✔️ todo: call per prodotti    
-        - ➗ todo: splitter (quantità per pagina)    
-        - ➗ todo: splitter (più economico, più caro, votato, recente)    
-        - ➗ todo: sidebar (articoli per..., prezzo, tipologia, brand)    
+        - ✔️ todo: splitter (quantità per pagina)    
+        - ✔️ todo: splitter (più economico, più caro, votato, recente)    
+        - ✔️ todo: sidebar (articoli per..., prezzo, tipologia, brand)    
         - ✔️ todo: box prodotti suggeriti    
         - ✔️ todo: box categorie suggerite    
         - ✔️ todo: paginazione    
@@ -103,14 +103,12 @@ Works Report : WEBSITE FRONT
 
      - ✔️ howto.php
 
-     - 🔥✔️ categorylist.php
+     - ✔️ categorylist.php
         - ✔️ category.php
-           - ➗ todo: call per prodotti per questa categoria   
-           - ➗ todo: splitter (quantità per pagina)    
-           - ➗ todo: splitter (più economico, più caro, votato, recente)    
-           - ➗ todo: sidebar (articoli per..., prezzo, tipologia, brand)    
-           - ➗ todo: box prodotti suggeriti    
-           - ➗ todo: box categorie suggerite  
+           - ✔️ todo: call per prodotti per questa categoria   
+           - ✔️ todo: splitter (quantità per pagina)    
+           - ✔️ todo: splitter (più economico, più caro, votato, recente)    
+           - ✔️ todo: sidebar (articoli per..., prezzo, tipologia, brand)    
 
      - ✔️ product.php
         - ✔️ todo: Gallery   
@@ -138,7 +136,7 @@ Works Report : WEBSITE BACK (ADMIN PANEL)
 
  - ✔️ todo:   index.php con login
 
- - ➗ todo:   dashboard.php
+ - ✔️ todo:   dashboard.php
 
 
  sezione staff
@@ -151,7 +149,7 @@ Works Report : WEBSITE BACK (ADMIN PANEL)
 
  - ✔️ todo:   staff.edit.php
     - ✔️ form modifiche profilo
-            con: % immagine profilo, % resetta immagine profilo
+            con: % immagine profilo, ✔ resetta immagine profilo
                  ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita, ✔ aggiorna password
                  ✔ zona di residenza, ✔ qualifica, ✔ mail di accesso, ✔ telefono, ✔ link,
                  ✘ eliminato per richiesta: documento aggiorna documento elimina documento
@@ -175,7 +173,7 @@ Works Report : WEBSITE BACK (ADMIN PANEL)
 
  - ✔️ todo:   users.edit.php
     - ✔️ form modifiche profilo
-                con: % img profilo, % reinvia nuova img, % approva img , % rigetta img
+                con: ✔ img profilo, ✔ reinvia nuova img, ✔ approva img , ✔ rigetta img
                      ✔ nome, ✔ cognome, ✔ codice fiscale, ✔ data di nascita, ✔ aggiorna password
                      ✔ zona di residenza, ✔ qualifica (solo lvl<3), ✔ mail di accesso, ✔ telefono, ✔ link,
                      ✔ordine/albo, ✔tipo ordine/albo, ✔albo zona, ✔albo umero,
@@ -206,7 +204,7 @@ sezione brands e store:
                         ✔ aggiorna password
                         se esiste un referente...
                         ✔ nome referente, ✔ cognome referente, ✔ email referente, ✔ telefono referente,
-              solo flag: % img profilo, % reinvia nuova img, % approva img , % rigetta img
+              solo flag: ✔ img profilo, ✔ reinvia nuova img, ✔ approva img , ✔ rigetta img
                          ✔ Questo brand ha uno store? Si/No,
                          ✔ ragione sociale, ✔ link, ✔ tags
                
@@ -225,7 +223,7 @@ sezione brands e store:
                         ✔ aggiorna password
                         se esiste un referente...
                         ✔ nome referente, ✔ cognome referente, ✔ email referente, ✔ telefono referente,
-              solo flag: % img profilo, % reinvia nuova img, % approva img , % rigetta img
+              solo flag: ✔ img profilo, ✔ reinvia nuova img, ✔ approva img , ✔ rigetta img
                          ✔ Questo brand ha uno store? Si/No,
                          ✔ ragione sociale, ✔ link, ✔ tags
                          
@@ -235,7 +233,7 @@ sezione shop:
 - ✔️ todo:   shop.search.php
                  con: ✔ nome prodotto, ✔ id, ✔ in cagetoria (selezione multipla);
                       ✔ per pagina, ✔ commons actions (abilita,elimina)
-              result: ✔ Id, ✔ titolo, ✔ descizione, ✔ visibilità, ✔ prezzo, % stars, % clicks
+              result: ✔ Id, ✔ titolo, ✔ descizione, ✔ visibilità, ✔ prezzo, ✔ stars, ✔ clicks
 
 - ✔️ todo:   shop.product.edit.php
 
@@ -246,12 +244,12 @@ sezione shop:
 - ✔️ todo:   shop.codes.search.php
 
 - ✔️ todo:   shop.categories.php
-                 con: % modifica questa categoria, % crea sotto categoria, % crea categoria base
+                 con: ✔ modifica questa categoria, ✔ crea sotto categoria, ✔ crea categoria base
 
 
 - ✔️ todo:   shop.tags.php (stabile su versione classica)
 
-- ⭕ todo:   shop.tags.taglist.php è fatta ma: RESA STABILE MA MANCA IL SISTEMA PER GESTIRLI
+- ✔️ todo:   shop.tags.taglist.php è fatta
 
 
 
@@ -411,16 +409,13 @@ Works Report : API TO SITE
  - ✔️ fix/up:  Immagine profilo utenti: manca come reperire lo status di approvazione/rigetto
  - ✔️ fix:     collegamento ultime mail + manca la parte messaggi al delete,disable,contact su user, brand ecc.
                 mio: preparo dei messaggi standard per le common actions e manca da collegare quelli per decisione ponderata con motivazione.
-
- - ⭕ fix/up:  RICERCHE FRONTOFFICE
+ - ✔️ fix/up:  RICERCHE FRONTOFFICE
                 -> Secondo me va fatta una chiamata a parte dove inseriremo la questione filtri avanzati (ancora da fare)
                 -> in ricerca (front office): Solo la variante più economica! Suggerisco nuova chiamata
                 -> Se non erro è stato fatto ma chiedo conferma. Stato dei prodotti attiva/disattivo per non mostrarli in chiamata frontoffice
- 
- - ⭕ todo:    Manca gestione tags (elimina questo tag, aggiorna questo tag). E' probabile che per come impostata la cosa non sia facile o possibile farlo
-
- - ⭕ todo:    ultimare Dashboard
-
+ - ✔️ todo:    ultimare Dashboard
+ - ✔️ todo:    ultimare frontoffice (aggiornare pagina categorie)
+ - ✖️ todo:    Manca gestione tags (elimina questo tag, aggiorna questo tag). E' probabile che per come impostata la cosa non sia facile o possibile farlo
  - ⭕ todo:    Spostamento API e DB -> Termine dei lavori
  
 
@@ -430,12 +425,13 @@ Works Report : COMMONS
 
  - 🔸 fix:    invio messaggio utente: User 311 not found - l'utente esite.
  - 🔸 fix:    Ricerca frontoffice paginazione avanzata, filtri avanzati.
-
+ - 🔸 fix:    prodotti suggeriti senza alcuna logica
  - 🔸 CHROME: (frontoffice) File download appare vuoto
 
- - 🔥 todo:    ultimare frontoffice (aggiornare pagina categorie)
+checks: mail system
+checks: forms sidebar con: % convalida, % sospendi, % elimina, % reset, % contatta
 
 
-// FINE LAVORI (Spero)
+// FINE LAVORI
  
  
