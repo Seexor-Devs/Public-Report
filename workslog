@@ -415,23 +415,27 @@ Works Report : API TO SITE
                 -> Se non erro è stato fatto ma chiedo conferma. Stato dei prodotti attiva/disattivo per non mostrarli in chiamata frontoffice
  - ✔️ todo:    ultimare Dashboard
  - ✔️ todo:    ultimare frontoffice (aggiornare pagina categorie)
- - ✖️ todo:    Manca gestione tags (elimina questo tag, aggiorna questo tag). E' probabile che per come impostata la cosa non sia facile o possibile farlo
+ - ✔️ fix:    invio messaggio utente: User 311 not found - l'utente esite.
+ - ✔️ fix:    checks mail system non funzionano
+ - ✔️ fix:    forms sidebar con: % convalida, % sospendi, % elimina, % reset, % contatta.
+
  - ⭕ todo:    Spostamento API e DB -> Termine dei lavori
- 
-
-::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
-
-Works Report : COMMONS
-
- - 🔸 fix:    invio messaggio utente: User 311 not found - l'utente esite.
- - 🔸 fix:    Ricerca frontoffice paginazione avanzata, filtri avanzati.
- - 🔸 fix:    prodotti suggeriti senza alcuna logica
- - 🔸 CHROME: (frontoffice) File download appare vuoto
-
-checks: mail system
-checks: forms sidebar con: % convalida, % sospendi, % elimina, % reset, % contatta
 
 
 // FINE LAVORI
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+---
+
+spostato a prossimi aggiornamenti:
+ - 🔸 fix:    prodotti suggeriti senza alcuna logica
+ - ✖️ fix:    Ricerca frontoffice paginazione avanzata, filtri avanzati.
+ - ✖️ todo:    Manca gestione tags (elimina questo tag, aggiorna questo tag). E' probabile che per come impostata la cosa non sia facile o possibile farlo
+ - ✖️ todo:    Id unificativo per ricerca duplicati indipendenti dal nome
+
+
+
  
  
